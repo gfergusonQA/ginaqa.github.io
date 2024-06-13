@@ -1,22 +1,78 @@
 <a href="https://gfergusonqa.github.io/projects/">PROJECTS</a>
-<div class="banner">
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>Your go-to place for my projects and blog.</p>
-</div>
-<nav>
-    <ul>
-        <li><a href="https://gfergusonqa.github.io/projects/">PROJECTS</a></li>
-    </ul>
-</nav>
-<section id="contact">
-    <h2>Contact Me</h2>
-    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <input type="submit" value="Send">
-    </form>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Welcome to My GitHub Page!</h1>
+        <p>Your go-to place for my projects and blog.</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a software developer passionate about making technology accessible for everyone. Welcome to my personal site!</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <img src="project1.png" alt="Project One">
+            <p>A brief description of the project.</p>
+            <a href="https://github.com/username/project1">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <img src="project2.png" alt="Project Two">
+            <p>A brief description of the project.</p>
+            <a href="https://github.com/username/project2">View on GitHub</a>
+        </div>
+    </section>
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <article>
+            <h3><a href="blog-post-1.html">Understanding JavaScript Closures</a></h3>
+            <p>A deep dive into one of JavaScript's most powerful features.</p>
+            <span>Published on June 10, 2024</span>
+        </article>
+        <article>
+            <h3><a href="blog-post-2.html">Accessibility in Web Development</a></h3>
+            <p>Best practices for making your web applications accessible to everyone.</p>
+            <span>Published on May 25, 2024</span>
+        </article>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <div class="social-media">
+        <h2>Follow Me</h2>
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <a href="https://github.com/username/username.github.io">Source Code</a>
+    </footer>
+</body>
+</html>
