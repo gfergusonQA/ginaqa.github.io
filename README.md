@@ -1,4 +1,4 @@
-# Welcome to Gina Ferguson's Page
+# Welcome to Gina's QA Page
 
 ## About Me
 
