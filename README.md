@@ -83,7 +83,9 @@ My career passion is leveraging my QA expertise to make technology more accessib
 
 > Feel free to reach out to me!
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+>> Enjoy my cat, Steve Buscemi!
+
+![My Cat: Steve Buscemi](https://github.com/gfergusonQA/ginaqa.github.io/blob/main/Photoroom_20240613_022255.jpg?raw=true)
 
 ---
 
