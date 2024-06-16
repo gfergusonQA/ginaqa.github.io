@@ -1,6 +1,4 @@
-# Welcome to Gina's QA Page
-
-## About Me
+# About Me
 
 As a **Senior QA Engineer** and former **Mobile Automation Lead** at Mercari US, I have over six years of experience in testing and developing mobile and web applications. I am a **JavaScript-certified professional** proficient in **Ruby**, **JavaScript**, **SQL**, and **C++**. I have led and contributed to projects involving third-party integrations, database testing, and accessibility testing, enhancing user experience and company performance.
 
