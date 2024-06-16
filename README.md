@@ -2,7 +2,7 @@
 
 As a **Senior QA Engineer** and former **Mobile Automation Lead** at Mercari US, I have over six years of experience in testing and developing mobile and web applications. I am a **JavaScript-certified professional** proficient in **Ruby**, **JavaScript**, **SQL**, and **C++**. I have led and contributed to projects involving third-party integrations, database testing, and accessibility testing, enhancing user experience and company performance.
 
-My career passion is leveraging my QA expertise to make technology more accessible for everyone. I am an avid learner and a collaborative team player, constantly exploring new tools and techniques to excel in the ever-evolving tech industry. Outside of work, I actively participate in the tech community, particularly with **PDXWit (Portland Women in Tech)**. I am a proud AML leukemia survivor, dedicated to delivering exceptional results.
+My career passion is leveraging my QA expertise to make technology more accessible for everyone. I am an avid learner and a collaborative team player, constantly exploring new tools and techniques to excel in the ever-evolving tech industry. Outside of work, I actively participate in the tech community, particularly with **PDXWit (Portland Women in Tech)**.
 
 ---
 
