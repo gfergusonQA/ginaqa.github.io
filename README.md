@@ -27,6 +27,7 @@
 </head>
 <body>
     <div class="header">
+        <a href="/headerpages/home.md">Home</a>
         <a href="/headerpages/about.html">About</a>
         <a href="/headerpages/portfolio.html">Portfolio</a>
         <a href="/headerpages/contact.html">Contact</a>
