@@ -1,3 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .header a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div style="padding:20px;">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple header bar example with navigation links.</p>
+    </div>
+</body>
+</html>
 # About Me
 
 As a **Senior QA Engineer** and former **Mobile Automation Lead** at Mercari US, I have over six years of experience in testing and developing mobile and web applications. I am a **JavaScript-certified professional** proficient in **Ruby**, **JavaScript**, **SQL**, and **C++**. I have led and contributed to projects involving third-party integrations, database testing, and accessibility testing, enhancing user experience and company performance.
