@@ -31,7 +31,7 @@
         <a href="#about">About</a>
         <a href="#portfolio.html">Portfolio</a>
         <a href="#contact">Contact</a>
-        <body>UNDER CONTSTRUCTION</body>
+        <body><b>UNDER CONSTRUCTION</b></body>
     </div>
 </body>
 </html>
