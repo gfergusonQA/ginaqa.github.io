@@ -5,7 +5,7 @@
     <title>Header Bar</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto';
         }
         .header {
             background-color: #333;
@@ -29,7 +29,7 @@
     <div class="header">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#portfolio.html">Portfolio</a>
         <a href="#contact">Contact</a>
         <body>UNDER CONTSTRUCTION</body>
     </div>
