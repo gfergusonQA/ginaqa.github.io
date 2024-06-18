@@ -27,10 +27,9 @@
 </head>
 <body>
     <div class="header">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="/headerpages/about.html">About</a>
+        <a href="/headerpages/portfolio.html">Portfolio</a>
+        <a href="/headerpages/contact.html">Contact</a>
         <body><b>UNDER CONSTRUCTION</b></body>
     </div>
 </body>
