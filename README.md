@@ -5,7 +5,7 @@
     <title>Header Bar</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
         }
         .header {
             background-color: #333;
@@ -17,7 +17,7 @@
             color: #f2f2f2;
             text-align: center;
             padding: 14px 16px;
-            text-decoration: none;
+            text-decoration: overline;
         }
         .header a:hover {
             background-color: #ddd;
