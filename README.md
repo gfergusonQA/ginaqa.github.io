@@ -32,10 +32,6 @@
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
     </div>
-    <div style="padding:20px;">
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple header bar example with navigation links.</p>
-    </div>
 </body>
 </html>
 # About Me
