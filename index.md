@@ -76,5 +76,5 @@ My career passion is leveraging my QA expertise to make technology more accessib
 
 ### Learning Platforms
 - **Udemy** | **CodeCademy** | **LinkedIn Learning**
-<html><img >
+
 
