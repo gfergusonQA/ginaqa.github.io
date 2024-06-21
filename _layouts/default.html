@@ -15,7 +15,12 @@
             <a href="{{ "/portfolio" | relative_url }}" class="nav-link">Portfolio</a>
             <a href="{{ "/contact" | relative_url }}" class="nav-link">Contact</a>
         </nav>
-        <b>UNDER CONSTRUCTION</b>
+        <div class="under-construction">
+            <video width="320" height="240" autoplay loop muted>
+                <source src="{{ "assets/videos/under_construction.mp4" | relative_url }}" type="video/mp4">
+                This website is under construction. :D 
+            </video>
+        </div>
     </header>
     <main>
         {{ content }}
