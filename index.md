@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home
-theme: jekyll-theme-hacker
 ---
 
 # About Me
