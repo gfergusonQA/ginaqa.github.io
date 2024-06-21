@@ -47,6 +47,12 @@ body {
     transform: scale(1.1);
 }
 
+.under-construction {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .responsive-image {
     width: 100%;
     max-width: 300px;

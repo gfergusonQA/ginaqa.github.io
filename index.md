@@ -76,19 +76,5 @@ My career passion is leveraging my QA expertise to make technology more accessib
 
 ### Learning Platforms
 - **Udemy** | **CodeCademy** | **LinkedIn Learning**
-
----
-
-## Contact
-
-- [LinkedIn](https://www.linkedin.com/in/ginaferguson)
-- [GitHub](https://github.com/ginafergusonQA)
-
-> Feel free to reach out to me!
-
->> Enjoy my cat, Steve Buscemi!
-
-![Steve Buscemi!](https://github.com/gfergusonQA/ginaqa.github.io/blob/9dddc8a5030765af94527eefa224c8df36a77c63/Photoroom_20240613_022255.jpg?raw=true)
-
----
+<html><img >
 
