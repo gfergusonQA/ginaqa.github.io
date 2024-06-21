@@ -43,3 +43,9 @@ body {
     border-radius: 5px;
     transform: scale(1.1);
 }
+
+.responsive-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;  
+}
