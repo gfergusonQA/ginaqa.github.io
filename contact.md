@@ -2,7 +2,6 @@
 layout: default
 title: Contact Me
 ---
-<!DOCTYPE html>
 <html lang="en">
 <div class="content"></div>
 <body>
