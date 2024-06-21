@@ -4,6 +4,7 @@ title: Contact Me
 ---
 <!DOCTYPE html>
 <html lang="en">
+<html>
 <div class="content"></div>
 <body>
     <h1>Contact me!</h1>
