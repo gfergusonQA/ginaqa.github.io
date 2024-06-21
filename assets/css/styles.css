@@ -53,6 +53,12 @@ body {
     margin-top: 10px;
 }
 
+.static-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .responsive-image {
     width: 100%;
     max-width: 300px;
