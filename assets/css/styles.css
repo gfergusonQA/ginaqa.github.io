@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.content-container {
+    padding: 100px; /* Add padding to the container */
+}
+
 /* Header styles */
 .header {
     background-color: #333;
