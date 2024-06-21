@@ -1,22 +1,24 @@
-<!-- Contains nav bar / header links
-
+<!-- Contains nav bar / header links -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 </head>
 <body>
     <header class="header">
         <nav class="nav-bar">
-             <a href="/about.html" class="nav-link">About</a>
-             <a href="/portfolio.html" class="nav-link">Portfolio</a>
-             <a href="/contact.html" class="nav-link">Contact</a>
+            <a href="{{ "/" | relative_url }}" class="nav-link">Home</a>
+            <a href="{{ "/about" | relative_url }}" class="nav-link">About</a>
+            <a href="{{ "/portfolio" | relative_url }}" class="nav-link">Portfolio</a>
+            <a href="{{ "/contact" | relative_url }}" class="nav-link">Contact</a>
         </nav>
-        <body><b>UNDER CONSTRUCTION</b></body>
+        <b>UNDER CONSTRUCTION</b>
     </header>
-    </div>
+    <main>
+        {{ content }}
+    </main>
 </body>
-</html> -->
+</html>
