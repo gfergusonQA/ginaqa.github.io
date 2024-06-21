@@ -1,11 +1,10 @@
-<!-- Contains nav bar / header links -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Under Construction</title>
+    <link rel="stylesheet" href="{{ "assets/css/styles.css" | relative_url }}">
 </head>
 <body>
     <header class="header">
@@ -16,13 +15,10 @@
             <a href="{{ "/contact" | relative_url }}" class="nav-link">Contact</a>
         </nav>
         <div class="under-construction">
-            <video width="600" height="200" autoplay loop muted>
-                <source src="https://github.com/gfergusonQA/ginaqa.github.io/blob/cea855b209b34edd1e6bd20f881e0d79adac3927/assets/videos/UnderConstruction-canva-website.mp4" type="video/mp4">
-                This website is under construction.
-            </video>
+            <img src="{{ "assets/images/under_construction.gif" | relative_url }}" alt="Under Construction">
         </div>
     </header>
-    <main>
+    <main class="content-container">
         {{ content }}
     </main>
 </body>
