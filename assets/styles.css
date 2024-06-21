@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    margin: 100;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 .header a {
-    float: center;
+    float: flex;
     display: block;
     color: #f2f2f2;
     text-align: center;
