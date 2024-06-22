@@ -5,6 +5,12 @@ body {
     background-color: #2d2c2b; /* Change to your desired color */
 }
 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .content-container {
     padding: 10px; /* Add padding to the container */
 }
@@ -57,7 +63,7 @@ body {
 .static-image {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0 auto;
