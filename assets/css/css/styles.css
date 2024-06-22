@@ -48,11 +48,11 @@ body {
     transform: scale(1.1);
 }
 
-.under-construction {
+/* .under-construction {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-}
+} */
 
 .static-image {
     max-width: 100%;
