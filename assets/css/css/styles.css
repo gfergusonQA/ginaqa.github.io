@@ -9,6 +9,11 @@ body {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
+    min-width: 300px;
+    height: auto;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-container {
