@@ -5,14 +5,14 @@ body {
     background-color: #2d2c2b; /* Change to your desired color */
 }
 
-.container {
+/* .container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     min-width: 300px;
     height: auto;
     background-color: #f0f0f0;
-    /* justify-content: center;
+    justify-content: center;
     alight-items: center; */
 }
 
