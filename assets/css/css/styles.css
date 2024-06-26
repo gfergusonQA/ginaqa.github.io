@@ -66,6 +66,7 @@ body {
 } */
 
 .static-image {
+    media="(min-width: 465px)";
     max-width: 100%;
     height: auto;
     display: flex;
@@ -73,6 +74,21 @@ body {
     align-items: center;
     margin-top: 0 auto;
 }
+
+#ifMobile1 {
+    background-image: url(assets/images/QA Engineer website home.svg)
+    width: set your width  ;
+    height: set your height  ;
+}
+
+@media all and (max-width: 499px) {
+    #ifMobile1 {
+        background-image: url(assets/images/QA Engineer website home.svg)
+        width: 300px;
+        height: auto;
+    }
+}
+
 
 .responsive-image {
     width: 100%;
