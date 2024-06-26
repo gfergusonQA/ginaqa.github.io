@@ -12,8 +12,8 @@ body {
     min-width: 300px;
     height: auto;
     background-color: #f0f0f0;
-    justify-content: center;
-
+    /* justify-content: center;
+    alight-items: center; */
 }
 
 .content-container {
