@@ -77,8 +77,8 @@ body {
 
 #ifMobile1 {
     background-image: url(assets/images/QA Engineer website home.svg)
-    width: set your width  ;
-    height: set your height  ;
+    width: 300px;
+    height: auto;
 }
 
 @media all and (max-width: 499px) {
