@@ -5,19 +5,23 @@ body {
     background-color: #2d2c2b; /* Change to your desired color */
 }
 
-/* .container {
+ .container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     min-width: 300px;
     height: auto;
-    background-color: #f0f0f0;
+    display: flex;
     justify-content: center;
-    alight-items: center; */
+    align-items: center;
+    background-color: #f0f0f0;
 }
 
 .content-container {
     padding: 10px; /* Add padding to the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header styles */
@@ -31,7 +35,7 @@ body {
     color: #6e6e6e;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 .header a:hover {
@@ -59,14 +63,7 @@ body {
     transform: scale(1.1);
 }
 
-/* .under-construction {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-} */
-
 .static-image {
-    media="(min-width: 465px)";
     max-width: 100%;
     height: auto;
     display: flex;
@@ -75,23 +72,22 @@ body {
     margin-top: 0 auto;
 }
 
+.responsive-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;  
+}
+
 #ifMobile1 {
-    background-image: url(assets/images/QA Engineer website home.svg)
+    background-image: url("assets/images/QA Engineer website home.svg");
     width: 300px;
     height: auto;
 }
 
 @media all and (max-width: 499px) {
     #ifMobile1 {
-        background-image: url(assets/images/QA Engineer website home.svg)
+        background-image: url("assets/images/QA Engineer website home.svg");
         width: 300px;
         height: auto;
     }
-}
-
-
-.responsive-image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;  
 }
