@@ -45,7 +45,10 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+/* .grid-container {
+    display: flex;
+    padding: 10px
+} */
 /* Header styles */
 .header {
     background-color: #2d2c2b;
@@ -103,7 +106,7 @@ body {
     border-radius: 10%;
 }
 .header-video {
-    width: 100%;
+    width: 80%;
     height: auto;
     max-width: 1200px; /* Adjust as needed */
 }
