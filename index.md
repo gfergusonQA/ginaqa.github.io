@@ -11,16 +11,16 @@ title: Home
     </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <div class="content-container">
         <h1>Run Airplane Program</h1>
         <!-- <form action="https://formspree.io/f/mwpekzgz" method="POST">
             <label for="user_input">Enter Input:</label>
             <input type="text" id="user_input" name="user_input">
             <button type="submit">Run</button>
-        </form> -->
+        </form>
     </div>
-</div>
+</div> -->
 
 
 
