@@ -70,6 +70,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 0px;
+    border-radius: 10%;
 }
 
 .nav-link {
