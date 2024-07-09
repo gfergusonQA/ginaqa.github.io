@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2d2c2b;
+    background-color: #eb7d0f;
 }
 .wrapper {
     width: 100%;
@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
-    border-radius: 20%;
+    border-radius: 10%;
     background-color: pink;
     padding: 20px;
     
@@ -92,7 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 0 auto;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 .header-video {
