@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 20%;
     background-color: pink;
     padding: 20px;
     
@@ -92,6 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 0 auto;
+    border-radius: 20%;
 }
 
 .header-video {
