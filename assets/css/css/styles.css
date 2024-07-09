@@ -3,6 +3,17 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #2d2c2b; /* Change to your desired color */
+    background-image: url('damask-flower-layered-svg');
+    background-repeat: repeat;
+    background-position: top left;
+    margin: 0;
+    height: auto;
+    font-family: verdana, arial;
+    font-size: 8pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* ensure full viewport height */
 }
 
  .container {
