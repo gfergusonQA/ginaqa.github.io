@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    background-image: url("assets/images/damask.png");
+    background-image: url("/assets/images/damask.png");
     background-repeat: repeat;
     background-position: top left;
     margin: 0;
