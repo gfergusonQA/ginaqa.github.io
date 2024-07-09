@@ -31,6 +31,8 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
+    /* border-radius: 50%; */
+    
 }
 
 .content-container {
@@ -53,6 +55,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 50%;
 }
 
 .header a:hover {
