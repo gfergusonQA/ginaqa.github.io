@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     
 }
 
