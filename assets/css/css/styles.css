@@ -24,6 +24,14 @@ body {
     align-items: center;
     background-color: #2d2c2b;
 }
+.wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; /* center wrapper */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
 
 .content-container {
     width: 100%;
