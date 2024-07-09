@@ -96,12 +96,16 @@ body {
     margin-top: 0 auto;
     border-radius: 10%;
 }
-
+.header-video-container {
+    width: 100%;
+    height: auto;
+    background-color: red;
+    border-radius: 10%;
+}
 .header-video {
     width: 100%;
     height: auto;
     max-width: 1200px; /* Adjust as needed */
-    border-radius: 10%;
 }
 
 .responsive-image {
