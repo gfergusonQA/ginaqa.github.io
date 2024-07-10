@@ -35,6 +35,7 @@ body {
     border-radius: 10%;
     background-color: pink;
     padding: 20px;
+    justify-content: center;
     
 }
 
@@ -107,7 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: red;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 .header-video {
     width: 80%;
