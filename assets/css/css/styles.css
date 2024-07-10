@@ -104,6 +104,8 @@ body {
 .header-video-container {
     width: 100%;
     height: auto;
+    justify-content: center;
+    align-items: center;
     background-color: red;
     border-radius: 10%;
 }
@@ -111,6 +113,7 @@ body {
     width: 80%;
     height: auto;
     max-width: 1200px; /* Adjust as needed */
+    border-radius: 20%;
 }
 
 .responsive-image {
