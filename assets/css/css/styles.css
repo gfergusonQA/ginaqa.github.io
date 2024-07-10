@@ -75,6 +75,7 @@ body {
     gap: 0px;
     border-radius: 10%;
     max-width: 400px;
+    background-color: yellowgreen;
 }
 
 .nav-link {
