@@ -74,6 +74,7 @@ body {
     justify-content: center;
     gap: 0px;
     border-radius: 10%;
+    max-width: 400px;
 }
 
 .nav-link {
@@ -106,7 +107,7 @@ body {
     border-radius: 10%;
 }
 .header-video {
-    width: 80px;
+    width: 80%;
     height: auto;
     max-width: 1200px; /* Adjust as needed */
 }
