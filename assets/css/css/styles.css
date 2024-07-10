@@ -109,6 +109,7 @@ body {
     align-items: center;
     background-color: red;
     border-radius: 20%;
+    place-items: center;
 }
 .header-video {
     width: 80%;
