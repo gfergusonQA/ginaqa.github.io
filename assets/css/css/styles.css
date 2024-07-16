@@ -74,7 +74,7 @@ body {
 }
 .header {
     background-color: #41dfe5;
-    overflow: hidden;
+/*     overflow: hidden; */
     justify-content: center;
     align-items: center;
 }
