@@ -69,6 +69,7 @@ body {
     height: auto;
     max-width: 1200px; /* Adjust as needed */
     border-radius: 20%;
+    margin-top: 0 auto;
 }
 .header {
     background-color: #41dfe5;
