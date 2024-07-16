@@ -29,6 +29,7 @@ body {
 .wrapper {
     width: 100%;
     margin: 0 auto; /* center wrapper */
+    max-width: 500px;
     flex-direction: column;
     display: flex;
     align-items: center;
