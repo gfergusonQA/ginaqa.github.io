@@ -61,6 +61,7 @@ body {
     border-radius: 20%;
     place-items: center;
     margin-top: 0 auto;
+    padding: 20px;
 }
 .header-video {
     width: 80%;
