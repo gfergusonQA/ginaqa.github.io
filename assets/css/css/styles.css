@@ -60,6 +60,7 @@ body {
     background-color: red;
     border-radius: 20%;
     place-items: center;
+    margin-top: 0 auto;
 }
 .header-video {
     width: 80%;
