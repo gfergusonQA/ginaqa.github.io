@@ -55,6 +55,7 @@ body {
     background-color: #41dfe5;
     overflow: hidden;
     justify-content: center;
+    align-items: center;
 }
 
 .header a {
