@@ -45,20 +45,19 @@ body {
     padding: 10px; /* Add padding to the container */
     display: flex;  /* necessary to use justify-content: center */
     justify-content: center;
-    align-items: center;
+    align-items: center; /* center content horizontally */
+    flex-direction: column;             /* NEW - allow content to stack vertically */ 
 }
-/* .grid-container {
-    display: flex;
-    padding: 10px
-} */
+
 /* Header styles */
 
 .sidebar {                              /* NEW - sidebar all new */
-    width: 200px;                       /* NEW - width of the new column */
+    width: 250px;                       /* NEW - width of the new column */
     padding: 10px;
     background-color: lightgray;
     border-radius: 10%;
     margin-left: 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
 }
 
 /* HEADER STYLES */
@@ -75,12 +74,12 @@ body {
 }
 .header-video {
     width: 100%;
-    justify-content: center;
-    align-self: center;
+    /* justify-content: center; */
+    /* align-self: center; */
     height: auto;
 /*     max-width: 1200px; /* Adjust as needed */
     border-radius: 40%;
-    margin-top: 0 auto;
+    /* margin-top: 0 auto; */
     display: flex;  /* necessary to use justify-content: center */
 }
 .header {
@@ -113,6 +112,7 @@ body {
     border-radius: 10%;
     max-width: 400px;
     background-color: yellowgreen;
+    padding: 10px;
 }
 
 .nav-link {
