@@ -34,7 +34,7 @@ body {
     flex-direction: column; /* Changed to column for vertical stacking */
     align-items: center; /* Center content horizontally */
     padding: 20px;
-    background-color: rgb(145, 159, 156);;
+    background-color: rgb(145, 159, 156);
     border-radius: 10%;
 }
 
@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content horizontally */
-    background-color: rgb(145, 159, 156);;
+    background-color: rgb(145, 159, 156);
     border-radius: 10%;
     overflow: hidden;
 }
@@ -53,7 +53,7 @@ body {
     display: flex; /* Center the video */
     justify-content: center;
     align-items: center;
-    background-color: rgb(145, 159, 156);;
+    background-color: rgb(145, 159, 156);
     border-radius: 40%;
 }
 
@@ -68,7 +68,7 @@ body {
     justify-content: center;
     gap: 10px; /* Space between links */
     border-radius: 10%;
-    background-color: yellowgreen;
+    background-color: rgb(145, 159, 156;
     padding: 10px;
     margin-top: 10px; /* Space between video and nav links */
     width: 100%; /* Take full width */
@@ -100,7 +100,7 @@ body {
 
 .main-content {
     flex: 3; /* Main content takes more space */
-    padding: 20px;
+    /* padding: 20px; */
     background-color: white;
     border-radius: 10%;
 }
