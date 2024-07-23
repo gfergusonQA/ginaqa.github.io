@@ -78,7 +78,7 @@ body {
 .nav-link {
     color: white;
     text-decoration: none;
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: bold;
     padding: 10px 15px;
     transition: background 0.3s, transform 0.3s;
@@ -101,7 +101,7 @@ body {
 .main-content {
     flex: 3; /* Main content takes more space */
     padding: 10px;
-    background-color: white;
+    background-color: rgb(145, 159, 156);
     border-radius: 10%;
 }
 
