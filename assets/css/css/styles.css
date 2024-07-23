@@ -136,12 +136,20 @@ body {
     margin-left: 20px; /* Space between main content and sidebar */
 }
 
+.contact-me-image {
+    max-width: 450px;
+    padding: 20px;
+}
+
+.contact-me-icons {
+    max-width: 100px;
+}
+
 .static-image {
     max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-    align-self: center;
     border-radius: 5%;
     padding: 10px;
 }
