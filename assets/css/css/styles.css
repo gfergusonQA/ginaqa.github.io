@@ -29,7 +29,7 @@ body {
 
 .wrapper {
     width: 100%;
-    max-width: 900px; /* Adjust max-width as needed */
+    max-width: 800px; /* Adjust max-width as needed */
     display: flex;
     flex-direction: column; /* Changed to column for vertical stacking */
     align-items: center; /* Center content horizontally */
@@ -49,7 +49,7 @@ body {
 }
 
 .header-video-container {
-    width: 100%;
+    width: 80%;
     display: flex; /* Center the video */
     justify-content: center;
     align-items: center;
