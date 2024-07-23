@@ -6,7 +6,7 @@ body {
     margin: 0;
     height: auto;
     font-family: verdana, arial;
-    font-size: 8pt;
+    font-size: 12pt;
     display: flex; /* necessary to use justify-content: center */
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ body {
     flex-direction: column; /* Changed to column for vertical stacking */
     align-items: center; /* Center content horizontally */
     padding: 20px;
-    background-color: pink;
+    background-color: rgb(145, 159, 156);;
     border-radius: 10%;
 }
 
@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content horizontally */
-    background-color: pink;
+    background-color: rgb(145, 159, 156);;
     border-radius: 10%;
     overflow: hidden;
 }
@@ -53,14 +53,14 @@ body {
     display: flex; /* Center the video */
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(145, 159, 156);;
     border-radius: 40%;
 }
 
 .header-video {
     width: 100%;
     height: auto;
-    border-radius: 40%;
+    border-radius: 20%;
 }
 
 .nav-bar {
@@ -72,12 +72,13 @@ body {
     padding: 10px;
     margin-top: 10px; /* Space between video and nav links */
     width: 100%; /* Take full width */
-    max-width: 600px; /* Max width for navbar */
+    max-width: 700px; /* Max width for navbar */
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
+    font-size: 20pt;
     font-weight: bold;
     padding: 10px 15px;
     transition: background 0.3s, transform 0.3s;
@@ -107,7 +108,7 @@ body {
 .sidebar {
     flex: 1; /* Sidebar takes less space */
     padding: 20px;
-    background-color: lightgray;
+    background-color: rgb(145, 159, 156);
     border-radius: 10%;
     margin-left: 20px; /* Space between main content and sidebar */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
