@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    background-image: url("/assets/images/damask-smaller.png");
+    background-color: black;
     background-repeat: repeat;
     background-position: top left;
     margin: 0;
@@ -34,7 +34,7 @@ body {
     flex-direction: column; /* Changed to column for vertical stacking */
     align-items: center; /* Center content horizontally */
     padding: 20px;
-    background-color: rgb(150, 255, 89);
+    background-color: whitesmoke;
     border-radius: 10%;
 }
 
@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content horizontally */
-    background-color: rgb(150, 255, 89);
+    background-color: whitesmoke;
     border-radius: 5%;
     overflow: hidden;
 }
@@ -53,7 +53,7 @@ body {
     display: flex; /* Center the video */
     justify-content: center;
     align-items: center;
-    background-color: rgb(150, 255, 89);
+    background-color: whitesmoke;
     border-radius: 10%;
 }
 
@@ -68,7 +68,7 @@ body {
     justify-content: center;
     gap: 10px;                              /* Space between links */
     border-radius: 10%;
-    background-color: rgb(150, 255, 89);
+    background-color: whitesmoke;
     padding: 10px;
     margin-top: 10px;                       /* Space between video and nav links */
     width: 100%;                            /* Take full width */
@@ -85,7 +85,7 @@ body {
 }
 
 .nav-link:hover {
-    background: rgb(150, 255, 89);
+    background: whitesmoke;
     border-radius: 5px;
     transform: scale(1.1);
 }
@@ -101,14 +101,14 @@ body {
 .main-content {
     flex: 3; /* Main content takes more space */
     padding: 10px;
-    background-color: rgb(150, 255, 89);
+    background-color: whitesmoke;
     border-radius: 10%;
 }
 
 .sidebar {
     flex: 1; /* Sidebar takes less space */
     padding: 20px;
-    background-color: rgb(150, 255, 89);
+    background-color: whitesmoke;
     border-radius: 10%;
     margin-left: 20px; /* Space between main content and sidebar */
 }
