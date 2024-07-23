@@ -144,6 +144,8 @@ body {
 .contact-me-icons {
     max-width: 100px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .static-image {
