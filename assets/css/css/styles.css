@@ -99,14 +99,14 @@ body {
     font-size: 18pt;
     font-weight: bold;
     padding: 10px 15px;
-    background-color: black;
-    background-blend-mode: color-burn;
+    background-color: whitesmoke;
     transition: background 0.3s, transform 0.3s;
     border-radius: 5%;
 }
 
 .nav-link:hover {
-    background: black;
+    background: whitesmoke;
+    color: black;
     border-radius: 5px;
     border: 1px;
     transform: scale(1.1);
@@ -144,6 +144,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10%;
+    opacity: 1.0;
+    padding: 10px;
 }
 
 .responsive-image {
