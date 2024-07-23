@@ -8,36 +8,32 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="content-container">
-            <header class="header">
-                <div class="header-video-container">
-                    <video autoplay loop muted playsinline class="header-video">
-                        <source src="{{ "assets/Under Construction.mp4" | relative_url }}" type="video/mp4">
-                        RUT ROH!!! Your browser does not support the video tag.
-                    </video>
-                </div>
-                <nav class="nav-bar">
-                    <a href="{{ "/" | relative_url }}" class="nav-link">Home</a>
-                    <a href="{{ "/about" | relative_url }}" class="nav-link">About</a>
-                    <a href="{{ "/portfolio" | relative_url }}" class="nav-link">Portfolio</a>
-                    <a href="{{ "/contact" | relative_url }}" class="nav-link">Contact</a>
-                </nav>
-            </header>
-        </div>
-        <main class="content-container">
-            <div class="container">
-                <div class="grid container">
-                    {{ content }}
-                </div>
+        <header class="header">
+            <div class="header-video-container">
+                <video autoplay loop muted playsinline class="header-video">
+                    <source src="{{ "assets/Under Construction.mp4" | relative_url }}" type="video/mp4">
+                    RUT ROH!!! Your browser does not support the video tag.
+                </video>
+            </div>
+            <nav class="nav-bar">
+                <a href="{{ "/" | relative_url }}" class="nav-link">Home</a>
+                <a href="{{ "/about" | relative_url }}" class="nav-link">About</a>
+                <a href="{{ "/portfolio" | relative_url }}" class="nav-link">Portfolio</a>
+                <a href="{{ "/contact" | relative_url }}" class="nav-link">Contact</a>
+            </nav>
+        </header>
+        <main class="content-wrapper">
+            <div class="main-content">
+                {{ content }}
             </div>
             <aside class="sidebar">
-                <!-- Sidebar content goes here -->
                 <p>This is the sidebar content.</p>
             </aside>
         </main>
     </div>
 </body>
 </html>
+
 
 
 

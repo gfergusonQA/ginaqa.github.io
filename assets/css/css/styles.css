@@ -13,7 +13,7 @@ body {
     min-height: 100vh; /* ensure full viewport height */
 }
 
- .container {
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -22,97 +22,57 @@ body {
     display: flex;  /* necessary to use justify-content: center */
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: transparent;
     border-radius: 10%;
-    padding: 10px;                        /* NEW */
+    padding: 10px; /* Added padding */
 }
+
 .wrapper {
-    width: 90%;
-    /* margin: 0 auto; center wrapper */
-    max-width: 1200px;                    /* NEW */
-    flex-direction: column;               /* NEW - changed for vertical stacking */
-    display: flex;                        /* necessary to use justify-content: center */
-    align-items: center;                  /* NEW - center content horizontally */
-    border-radius: 10%;
-    background-color: blueviolet;
-    padding: 20px;
-    justify-content: space-between;       /* NEW - space between columns */
-}
-
-.content-container {
     width: 100%;
-    padding: 10px;                        /* Add padding to the container */
-    display: flex;                        /* necessary to use justify-content: center */
-    justify-content: center;
-    align-items: center;                  /* center content horizontally */
-    flex-direction: column;               /* NEW - allow content to stack vertically */ 
-} 
-
-
-/* Header styles */
-
-.sidebar {                                /* NEW - sidebar all new */
-    width: 250px;                         /* NEW - width of the new column */
-    padding: 10px;
-    background-color: lightgray;
+    max-width: 1200px; /* Adjust max-width as needed */
+    display: flex;
+    flex-direction: column; /* Changed to column for vertical stacking */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    background-color: pink;
     border-radius: 10%;
-    margin-left: 20px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Added shadow for better visibility */
 }
 
-/* HEADER STYLES */
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    background-color: #41dfe5;
+    border-radius: 40%;
+    overflow: hidden;
+}
+
 .header-video-container {
     width: 100%;
-    height: auto;
+    display: flex; /* Center the video */
     justify-content: center;
     align-items: center;
     background-color: red;
     border-radius: 40%;
-    place-items: center;
-    margin-top: 0 auto;
-    display: flex;  /* necessary to use justify-content: center */
 }
+
 .header-video {
     width: 100%;
-    /* justify-content: center; */
-    /* align-self: center; */
     height: auto;
-/*     max-width: 1200px; /* Adjust as needed */
     border-radius: 40%;
-    /* margin-top: 0 auto; */
-    display: flex;  /* necessary to use justify-content: center */
-}
-.header {
-    background-color: #41dfe5;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    display: flex;  /* necessary to use justify-content: center */
-    border-radius: 40%;
-}
-
-.header a {
-    display: block;
-    color: #2d2c2b;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.header a:hover {
-    background-color: pink;
-    color: rgb(255, 255, 255);
 }
 
 .nav-bar {
     display: flex;
     justify-content: center;
-    gap: 0px;
+    gap: 10px; /* Space between links */
     border-radius: 10%;
-    max-width: 400px;
     background-color: yellowgreen;
     padding: 10px;
+    margin-top: 10px; /* Space between video and nav links */
+    width: 100%; /* Take full width */
+    max-width: 600px; /* Max width for navbar */
 }
 
 .nav-link {
@@ -129,18 +89,41 @@ body {
     transform: scale(1.1);
 }
 
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; /* Space between main content and sidebar */
+    width: 100%;
+    max-width: 1200px; /* Max width for content */
+    margin-top: 20px; /* Space between header and content */
+}
+
+.main-content {
+    flex: 3; /* Main content takes more space */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.sidebar {
+    flex: 1; /* Sidebar takes less space */
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-left: 20px; /* Space between main content and sidebar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .static-image {
     max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0 auto;
     border-radius: 10%;
 }
+
 .responsive-image {
     width: 100%;
     max-width: 300px;
-    height: auto;  
+    height: auto;
 }
-
