@@ -131,6 +131,8 @@ body {
     background-color: whitesmoke;
     border-radius: 5px;
     margin-left: 20px; /* Space between main content and sidebar */
+    display: flex;
+    justify-content: center;
 }
 
 .static-image {
@@ -139,7 +141,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 5%;
     padding: 10px;
 }
 
