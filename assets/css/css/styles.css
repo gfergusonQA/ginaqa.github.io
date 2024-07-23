@@ -55,6 +55,12 @@ body {
     color: black;
 }
 
+.shadow-text {
+    font-size: 30pt;
+    font-family: serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .header-video-container {
     width: 90%;
     display: flex; /* Center the video */
