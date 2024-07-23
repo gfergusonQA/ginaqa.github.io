@@ -139,13 +139,17 @@ body {
 .contact-me-image {
     max-width: 450px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
 
 .contact-me-icons {
     max-width: 100px;
-    padding: 10px;
+    padding: 30px;
     display: flex;
     justify-content: center;
+    height: auto;
 }
 
 .static-image {
