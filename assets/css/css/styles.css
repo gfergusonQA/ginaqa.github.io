@@ -61,7 +61,7 @@ body {
 .shadow-text {
     font-size: 40pt;
     font-family: sans-serif;
-    font-stretch: extra-expanded;
+    font-weight: bold;
     text-shadow: 2px 2px 4px rgb(64, 255, 1);
 }
 
@@ -94,7 +94,7 @@ body {
 
 .nav-link { /* Header Links */
     color: rgb(255, 255, 255);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
     text-decoration:none;
     font-size: 18pt;
     font-weight: bold;
@@ -102,7 +102,7 @@ body {
     background-color: black;
     background-blend-mode: color-burn;
     transition: background 0.3s, transform 0.3s;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .nav-link:hover {
@@ -125,13 +125,14 @@ body {
     padding: 10px;
     background-color: whitesmoke;
     border-radius: 10%;
+    opacity: 0.9;
 }
 
 .sidebar {
     flex: 1; /* Sidebar takes less space */
     padding: 20px;
     background-color: whitesmoke;
-    border-radius: 20%;
+    border-radius: 5%;
     margin-left: 20px; /* Space between main content and sidebar */
     opacity: 0.9;
 }
