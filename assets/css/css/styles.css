@@ -47,6 +47,13 @@ body {
     border-radius: 5%;
     overflow: hidden;
 }
+.header-text {
+    font-family: serif;
+    font-size: 20pt;
+    font-style: bold;
+    font-stretch: expanded;
+    color: black;
+}
 
 .header-video-container {
     width: 90%;
@@ -76,7 +83,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18pt;
     font-weight: bold;
