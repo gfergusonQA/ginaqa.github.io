@@ -35,7 +35,8 @@ body {
     flex-direction: column; /* Changed to column for vertical stacking */
     align-items: center; /* Center content horizontally */
     padding: 20px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    opacity: 0.5;
     border-radius: 10%;
     opacity: 0.5
 }
@@ -50,7 +51,7 @@ body {
     overflow: hidden;
 }
 .header-text {
-    font-family: monospace;
+    font-family: serif;
     font-size: 30pt;
     font-style: bold;
     font-stretch: extra-expanded;
@@ -91,12 +92,15 @@ body {
     max-width: 700px;                       /* Max width for navbar */
 }
 
-.nav-link {
+.nav-link { /* Header Links */
     color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, serif;
     text-decoration:none;
     font-size: 18pt;
     font-weight: bold;
     padding: 10px 15px;
+    background-color: black;
+    opacity: 0.5;
     transition: background 0.3s, transform 0.3s;
 }
 
@@ -137,7 +141,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 
 .responsive-image {
