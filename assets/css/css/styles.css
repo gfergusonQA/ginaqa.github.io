@@ -100,7 +100,7 @@ body {
 
 .main-content {
     flex: 3; /* Main content takes more space */
-    padding: 20px;
+    padding: 10px;
     background-color: white;
     border-radius: 10%;
 }
