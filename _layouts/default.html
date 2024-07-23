@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gina: QA Engineer</title>
-    <link rel="stylesheet" href="assets/css/css/styles.css">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="header-video-container">
-                <img src="assets/images/construction.png" class="static-image" width="70"
-                border-radius="10%">
+                <img src="assets/images/construction.png" class="static-image" width="70" style="border-radius: 30%;">
                 <div class="wrapper">
-                <div class="header-text">
-                Under Construction
+                    <div class="header-text">Under Construction</div>
                 </div>
-                </div>
-                <img src="assets/images/construction.png" class="static-image" width="70"
-                border-radius="10%">
+                <img src="assets/images/construction.png" class="static-image" width="70" style="border-radius: 30%;">
             </div>
             <nav class="nav-bar">
                 <a href="{{ "/" | relative_url }}" class="nav-link">Home</a>
@@ -32,49 +28,9 @@
                 {{ content }}
             </div>
             <aside class="sidebar">
+                {{ page.sidebar_content }}
             </aside>
         </main>
     </div>
 </body>
 </html>
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
-    <link rel="stylesheet" href="assets/css/css/styles.css">
-</head>
-<body>
-    <div class ="wrapper">
-        <div class ="content-container">
-             <header class="header">
-                 <nav class="nav-bar">
-                    <a href="{{ "/" | relative_url }}" class="nav-link">Home</a>
-                     <a href="{{ "/about" | relative_url }}" class="nav-link">About</a>
-                    <a href="{{ "/portfolio" | relative_url }}" class="nav-link">Portfolio</a>
-                    <a href="{{ "/contact" | relative_url }}" class="nav-link">Contact</a>
-                 </nav>
-                     <div class="header-video-container">
-                        <video autoplay loop muted playsinline class="header-video">
-                             <source src="{{ "assets/Under Construction.mp4" | relative_url }}" type="video/mp4">
-                             RUT ROH!!! Your browser does not support the video tag.
-                        </video>
-                    </div>
-            </header>
-        </div>
-         <main class="content-container">
-            <div class ="container">
-                <div class="grid container">
-            {{ content }}
-                </div>
-            </div>
-        </main>
-    </div>
-</body>
-</html> -->
