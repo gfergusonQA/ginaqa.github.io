@@ -25,7 +25,6 @@ body {
     background-color: red;
     border-radius: 10%;
     padding: 10px; /* Added padding */
-    opacity: 0.8;
 }
 
 .wrapper {
@@ -36,7 +35,6 @@ body {
     align-items: center; /* Center content horizontally */
     padding: 20px;
     /* background-color: whitesmoke; */
-    opacity: 0.8;
     border-radius: 20%;
 }
 
@@ -46,9 +44,8 @@ body {
     flex-direction: column;
     align-items: center; /* Center content horizontally */
     background-color: whitesmoke;
-    border-radius: 20%;
+    border-radius: 5px;
     overflow: hidden;
-    opacity: 0.8;
 }
 .header-text {
     font-family: serif;
@@ -71,13 +68,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    border-radius: 20%;
+    border-radius: 5px;
 }
 
 .header-video {
     width: 100%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 .nav-bar {
@@ -99,15 +96,16 @@ body {
     font-size: 18pt;
     font-weight: bold;
     padding: 10px 15px;
-    background-color: whitesmoke;
+    background-color:whitesmoke;
     transition: background 0.3s, transform 0.3s;
     border-radius: 5%;
+    border: 1px solid black;
 }
 
 .nav-link:hover {
     background: whitesmoke;
     color: black;
-    border-radius: 5px;
+    border-radius: 5%;
     border: 1px;
     transform: scale(1.1);
 }
@@ -132,9 +130,8 @@ body {
     flex: 1; /* Sidebar takes less space */
     padding: 20px;
     background-color: whitesmoke;
-    border-radius: 30%;
+    border-radius: 5px;
     margin-left: 20px; /* Space between main content and sidebar */
-    opacity: 0.8;
 }
 
 .static-image {
