@@ -29,7 +29,7 @@ body {
 
 .wrapper {
     width: 100%;
-    max-width: 700px; /* Adjust max-width as needed */
+    max-width: 900px; /* Adjust max-width as needed */
     display: flex;
     flex-direction: column; /* Changed to column for vertical stacking */
     align-items: center; /* Center content horizontally */
