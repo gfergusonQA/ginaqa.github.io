@@ -90,7 +90,7 @@ body {
 }
 
 .nav-link { /* Header Links */
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family:'Franklin Gothic Medium', Arial, sans-serif;
     text-decoration:none;
     font-size: 18pt;
@@ -103,10 +103,10 @@ body {
 }
 
 .nav-link:hover {
-    background: whitesmoke;
-    color: black;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 5%;
-    border: 1px;
+    border: 1px solid white;
     transform: scale(1.1);
 }
 
