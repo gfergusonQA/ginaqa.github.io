@@ -24,34 +24,35 @@ body {
     align-items: center;
     background-color: red;
     border-radius: 10%;
-    padding: 10px;                       /* NEW */
+    padding: 10px;                        /* NEW */
 }
 .wrapper {
-    width: 100%;
-    margin: 0 auto; /* center wrapper */
-    max-width: 800px;                    /* NEW */
-    flex-direction: row;                 /* NEW - changed to accomodate new column*/
-    display: flex;  /* necessary to use justify-content: center */
-    align-items: flex-start;            /* NEW - align items to the start for column layout*/
+    width: 90%;
+    /* margin: 0 auto; center wrapper */
+    max-width: 1200px;                    /* NEW */
+    flex-direction: column;               /* NEW - changed for vertical stacking */
+    display: flex;                        /* necessary to use justify-content: center */
+    align-items: center;                  /* NEW - center content horizontally */
     border-radius: 10%;
-    background-color: pink;
+    background-color: blueviolet;
     padding: 20px;
-    justify-content: space-between;     /* NEW - space between columns */
+    justify-content: space-between;       /* NEW - space between columns */
 }
 
 .content-container {
     width: 100%;
-    padding: 10px; /* Add padding to the container */
-    display: flex;  /* necessary to use justify-content: center */
+    padding: 10px;                        /* Add padding to the container */
+    display: flex;                        /* necessary to use justify-content: center */
     justify-content: center;
-    align-items: center; /* center content horizontally */
-    flex-direction: column;             /* NEW - allow content to stack vertically */ 
-}
+    align-items: center;                  /* center content horizontally */
+    flex-direction: column;               /* NEW - allow content to stack vertically */ 
+} 
+
 
 /* Header styles */
 
-.sidebar {                              /* NEW - sidebar all new */
-    width: 250px;                       /* NEW - width of the new column */
+.sidebar {                                /* NEW - sidebar all new */
+    width: 250px;                         /* NEW - width of the new column */
     padding: 10px;
     background-color: lightgray;
     border-radius: 10%;
