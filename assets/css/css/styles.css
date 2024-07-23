@@ -133,6 +133,7 @@ body {
     margin-left: 20px; /* Space between main content and sidebar */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .static-image {
