@@ -113,8 +113,9 @@ body {
 .content-wrapper {
     display: flex;
     justify-content: space-between; /* Space between main content and sidebar */
+    align-items: center;
     width: 100%;
-    max-width: 1200px; /* Max width for content */
+    max-width: 1000px; /* Max width for content */
     margin-top: 20px; /* Space between header and content */
 }
 
