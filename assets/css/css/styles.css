@@ -25,7 +25,7 @@ body {
     background-color: red;
     border-radius: 10%;
     padding: 10px; /* Added padding */
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .wrapper {
@@ -36,8 +36,8 @@ body {
     align-items: center; /* Center content horizontally */
     padding: 20px;
     /* background-color: whitesmoke; */
-    opacity: 0.9;
-    border-radius: 10%;
+    opacity: 0.8;
+    border-radius: 20%;
 }
 
 .header {
@@ -46,9 +46,9 @@ body {
     flex-direction: column;
     align-items: center; /* Center content horizontally */
     background-color: whitesmoke;
-    border-radius: 10%;
+    border-radius: 20%;
     overflow: hidden;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .header-text {
     font-family: serif;
@@ -71,7 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 
 .header-video {
@@ -106,7 +106,7 @@ body {
 }
 
 .nav-link:hover {
-    background: whitesmoke;
+    background: black;
     border-radius: 5px;
     border: 1px;
     transform: scale(1.1);
@@ -125,16 +125,16 @@ body {
     padding: 10px;
     background-color: whitesmoke;
     border-radius: 10%;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .sidebar {
     flex: 1; /* Sidebar takes less space */
     padding: 20px;
     background-color: whitesmoke;
-    border-radius: 5%;
+    border-radius: 30%;
     margin-left: 20px; /* Space between main content and sidebar */
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .static-image {
