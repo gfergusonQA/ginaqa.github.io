@@ -22,14 +22,14 @@ body {
     display: flex;  /* necessary to use justify-content: center */
     justify-content: center;
     align-items: center;
-    background-color: transparent;
+    background-color: red;
     border-radius: 10%;
     padding: 10px; /* Added padding */
 }
 
 .wrapper {
     width: 100%;
-    max-width: 800px; /* Adjust max-width as needed */
+    max-width: 700px; /* Adjust max-width as needed */
     display: flex;
     flex-direction: column; /* Changed to column for vertical stacking */
     align-items: center; /* Center content horizontally */
@@ -111,7 +111,6 @@ body {
     background-color: rgb(145, 159, 156);
     border-radius: 10%;
     margin-left: 20px; /* Space between main content and sidebar */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .static-image {
