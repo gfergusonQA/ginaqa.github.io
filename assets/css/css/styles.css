@@ -141,7 +141,7 @@ body {
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-self: center;
     border-radius: 5%;
     padding: 10px;
 }
