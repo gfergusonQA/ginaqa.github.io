@@ -60,19 +60,19 @@ body {
 .header-video {
     width: 100%;
     height: auto;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 .nav-bar {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Space between links */
+    gap: 10px;                              /* Space between links */
     border-radius: 10%;
     background-color: rgb(145, 159, 156);
     padding: 10px;
-    margin-top: 10px; /* Space between video and nav links */
-    width: 100%; /* Take full width */
-    max-width: 700px; /* Max width for navbar */
+    margin-top: 10px;                       /* Space between video and nav links */
+    width: 100%;                            /* Take full width */
+    max-width: 700px;                       /* Max width for navbar */
 }
 
 .nav-link {
@@ -100,7 +100,7 @@ body {
 
 .main-content {
     flex: 3; /* Main content takes more space */
-    /* padding: 20px; */
+    padding: 20px;
     background-color: white;
     border-radius: 10%;
 }
