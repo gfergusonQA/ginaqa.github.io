@@ -52,6 +52,16 @@ body {
     padding: 10px
 } */
 /* Header styles */
+
+.sidebar {                              /* NEW - sidebar all new */
+    width: 200px;                       /* NEW - width of the new column */
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-left: 20px; 
+}
+
+/* HEADER STYLES */
 .header-video-container {
     width: 100%;
     height: auto;
@@ -92,7 +102,7 @@ body {
 }
 
 .header a:hover {
-    background-color: #f19cce;
+    background-color: pink;
     color: rgb(255, 255, 255);
 }
 
