@@ -49,9 +49,9 @@ body {
 }
 .header-text {
     font-family: serif;
-    font-size: 20pt;
+    font-size: 30pt;
     font-style: bold;
-    font-stretch: expanded;
+    font-stretch:extra-expanded;
     color: black;
 }
 
