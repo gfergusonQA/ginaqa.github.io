@@ -25,20 +25,19 @@ body {
     align-items: center;
     background-color: red;
     border-radius: 10%;
-    padding: 20px; /* NEW */
+    padding: 20px;                       /* NEW */
 }
 .wrapper {
     width: 100%;
     margin: 0 auto; /* center wrapper */
-    max-width: 500px;
-    flex-direction: column;
+    max-width: 800px;                    /* NEW */
+    flex-direction: row;                 /* NEW - changed to accomodate new column*/
     display: flex;  /* necessary to use justify-content: center */
-    align-items: center;
+    align-items: flex-start;            /* NEW - align items to the start for column layout*/
     border-radius: 10%;
     background-color: pink;
     padding: 20px;
-    justify-content: center;
-    
+    justify-content: space-between;     /* NEW - space between columns */
 }
 
 .content-container {
