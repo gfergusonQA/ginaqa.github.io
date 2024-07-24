@@ -117,7 +117,7 @@ body {
     width: 100%;
     max-width: 1000px;               /* Max width for content */
     margin-top: 20px;                /* Space between header and content */
-    flex-direction: column;          /* makes sidebar match heigh of main content */
+    /* flex-direction: column;          makes sidebar match heigh of main content */
 }
 
 /* parent of .sidebar */
@@ -136,6 +136,7 @@ body {
     border-radius: 5px;
     margin-left: 20px; /* Space between main content and sidebar */
     display: flex;
+    min-width: 300px;
 }
 
 .contact-me-image {
