@@ -127,17 +127,17 @@ body {
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    min-height: 500px;
+    /* flex-direction: column;          makes sidebar match heigh of main content */
 }
 
 .sidebar {
     flex: 1; /* Sidebar takes less space */
-    background-color: #f5f5f5;
+    background-color: whitesmoke;
     border-radius: 5px;
     margin-left: 20px; /* Space between main content and sidebar */
     display: flex;
     min-width: 300px;
-    min-height: 500px;
+     /* flex-direction: column;          makes sidebar match heigh of main content */
 }
 
 .contact-me-image {
