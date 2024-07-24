@@ -7,10 +7,10 @@ body {
     height: auto;
     font-family: verdana, arial;
     font-size: 12pt;
-    display: flex; /* necessary to use justify-content: center */
+    display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* ensure full viewport height */
+    min-height: 100vh;
 }
 
 .container {
@@ -19,22 +19,20 @@ body {
     margin: 0 auto;
     min-width: 300px;
     height: auto;
-    display: flex;  /* necessary to use justify-content: center */
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
     border-radius: 10%;
-    padding: 10px; /* Added padding */
+    padding: 10px;
 }
 
 .wrapper {
     width: 100%;
-    max-width: 900px; /* Adjust max-width as needed */
+    max-width: 900px;
     display: flex;
-    flex-direction: column; /* Changed to column for vertical stacking */
-    align-items: center; /* Center content horizontally */
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    /* background-color: whitesmoke; */
     border-radius: 20%;
 }
 
@@ -42,7 +40,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
+    align-items: center;
     background-color: whitesmoke;
     border-radius: 5px;
     overflow: hidden;
@@ -63,7 +61,7 @@ body {
 
 .header-video-container {
     width: 90%;
-    display: flex; /* Center the video */
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
@@ -79,23 +77,23 @@ body {
 .nav-bar {
     display: flex;
     justify-content: center;
-    gap: 30px;                              /* Space between links */
+    gap: 30px;
     border-radius: 5px;
     background-color: whitesmoke;
     padding: 10px;
-    margin-top: 10px;                       /* Space between video and nav links */
-    width: 100%;                            /* Take full width */
-    max-width: 700px;                       /* Max width for navbar */
+    margin-top: 10px;
+    width: 100%;
+    max-width: 700px;
 }
 
-.nav-link { /* Header Links */
+.nav-link {
     color: rgb(0, 0, 0);
-    font-family:'Franklin Gothic Medium', Arial, sans-serif;
-    text-decoration:none;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    text-decoration: none;
     font-size: 18pt;
     font-weight: bold;
     padding: 10px 15px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     transition: background 0.3s, transform 0.3s;
     border-radius: 5%;
     border: 1px solid black;
@@ -111,33 +109,32 @@ body {
 
 .content-wrapper {
     display: flex;
-    justify-content: space-between;  /* Space between main content and sidebar */
-    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    max-width: 1000px;               /* Max width for content */
-    margin-top: 20px;                /* Space between header and content */
-    /* flex-direction: column;          makes sidebar match heigh of main content */
+    max-width: 1000px;
+    margin-top: 20px;
 }
 
-/* parent of .sidebar */
 .main-content {
-    flex: 3; /* Main content takes more space */
+    flex: 3;
     padding: 10px;
     background-color: whitesmoke;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    /* flex-direction: column;          makes sidebar match heigh of main content */
+    min-height: 500px;
 }
 
 .sidebar {
-    flex: 1; /* Sidebar takes less space */
-    background-color: whitesmoke;
+    flex: 1;
+    background-color: #f5f5f5;
     border-radius: 5px;
-    margin-left: 20px; /* Space between main content and sidebar */
+    margin-left: 20px;
     display: flex;
+    flex-direction: column;
     min-width: 300px;
-     /* flex-direction: column;          makes sidebar match heigh of main content */
+    min-height: 500px;
 }
 
 .contact-me-image {
@@ -146,11 +143,11 @@ body {
     display: flex;
     justify-content: center;
     height: auto;
-    margin-bottom: 20px; /* adds space below biz-card */
+    margin-bottom: 20px;
 }
 
 .contact-me-image:hover {
-    transform: scale(1.2); /* Slightly enlarge on hover */
+    transform: scale(1.2);
 }
 
 .contact-me-icons {
@@ -162,7 +159,7 @@ body {
 }
 
 .contact-me-icons:hover {
-    transform: scale(1.2); /* Slightly enlarge on hover */
+    transform: scale(1.2);
 }
 
 .static-image {
