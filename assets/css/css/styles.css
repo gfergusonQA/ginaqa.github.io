@@ -128,7 +128,7 @@ body {
 
 .sidebar {
     flex: 1;
-    background-color: #f5f5f5;
+    background-color: whitesmoke;
     border-radius: 5px;
     margin-left: 20px;
     display: flex;
