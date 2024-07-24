@@ -176,3 +176,12 @@ body {
     max-width: 300px;
     height: auto;
 }
+
+.centered-image {
+    margin: 0 auto;
+    display: block; /* ensure it behaves as a block element */
+}
+
+.bold-text{
+    font-weight: bold;
+}
