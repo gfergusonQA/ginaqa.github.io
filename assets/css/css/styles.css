@@ -50,7 +50,6 @@ body {
 .header-text {
     font-family: serif;
     font-size: 30pt;
-    font-style: bold;
     font-stretch: extra-expanded;
     color: black;
 }
@@ -150,12 +149,20 @@ body {
     margin-bottom: 20px; /* adds space below biz-card */
 }
 
+.contact-me-image:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
 .contact-me-icons {
     max-width: 100px;
     padding: 30px;
     display: flex;
     justify-content: center;
     height: auto;
+}
+
+.contact-me-icons:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
 }
 
 .static-image {
