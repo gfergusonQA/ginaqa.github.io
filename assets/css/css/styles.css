@@ -128,6 +128,7 @@ body {
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    min-height: 500px;
 }
 
 .sidebar {
@@ -137,6 +138,7 @@ body {
     margin-left: 20px; /* Space between main content and sidebar */
     display: flex;
     min-width: 300px;
+    min-height: 500px;
 }
 
 .contact-me-image {
