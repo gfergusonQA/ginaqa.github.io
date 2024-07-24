@@ -152,7 +152,7 @@ body {
 }
 
 .contact-me-icons {
-    max-width: 100px;
+    max-width: 80px;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -184,4 +184,5 @@ body {
 
 .bold-text{
     font-weight: bold;
+    text-align: justify;
 }
