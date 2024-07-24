@@ -147,6 +147,7 @@ body {
     display: flex;
     justify-content: center;
     height: auto;
+    margin-bottom: 20px; /* adds space below biz-card */
 }
 
 .contact-me-icons {
