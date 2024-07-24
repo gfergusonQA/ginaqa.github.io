@@ -133,8 +133,8 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    min-width: 300px;
-    min-height: 500px;
+    /* min-width: 300px;
+    min-height: 500px; */
 }
 
 .contact-me-image {
