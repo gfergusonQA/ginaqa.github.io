@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/css/styles.css">
-
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/css/styles.css"> <!-- Corrected with Liquid -->
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="header-video-container">
-                <img src="assets/images/construction-transparent-final.png" class="static-image" width="70">
+                <img src="{{ site.baseurl }}/assets/images/construction-transparent-final.png" class="static-image" width="70"> <!-- Corrected with Liquid -->
                 <p class="shadow-text">Under Construction</p>
-                <img src="assets/images/construction-transparent-final.png" class="static-image" width="70">
+                <img src="{{ site.baseurl }}/assets/images/construction-transparent-final.png" class="static-image" width="70"> <!-- Corrected with Liquid -->
             </div>
             <nav class="nav-bar">
                 <a href="{{ "/" | relative_url }}" class="nav-link">Home</a>
