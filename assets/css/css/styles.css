@@ -194,9 +194,10 @@ body {
 .modern-text {
     letter-spacing: 5px;
     font-size: 34px;
-    line-height: 0.7;
+    line-height: 1.0;
     font-weight: bold;
     color: dimgrey;
     font-family: sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
