@@ -153,7 +153,7 @@ body {
 }
 
 .contact-me-icons {
-    max-width: 50px;
+    width: 50px;
     padding: 30px;
     display: flex;
     justify-content: center;
