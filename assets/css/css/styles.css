@@ -193,8 +193,9 @@ body {
 
 .modern-text {
     letter-spacing: 3px;
-    font-size: 24px;
+    font-size: 34px;
     line-height: 0.9;
     font-weight: bold;
-    color: pink;
+    color: darkslategray;
+    text-shadow: 2px 2px 4px #000000;
 }
