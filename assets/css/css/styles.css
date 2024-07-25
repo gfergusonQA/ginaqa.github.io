@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    cursor: url('assets/images/ds9-transparent-favicon.png'), auto;
 }
 
 .container {
@@ -184,4 +185,16 @@ body {
 
 .bold-text{
     font-weight: bold;
+}
+
+.rotate-image{
+    transition: transform 0.5s;
+}
+
+.modern-text {
+    letter-spacing: 3px;
+    font-size: 24px;
+    line-height: 0.9;
+    font-weight: bold;
+    color: pink;
 }
