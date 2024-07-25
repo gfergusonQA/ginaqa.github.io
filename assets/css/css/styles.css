@@ -153,7 +153,7 @@ body {
 }
 
 .contact-me-icons {
-    max-width: 80px;
+    max-width: 50px;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -194,8 +194,8 @@ body {
 .modern-text {
     letter-spacing: 3px;
     font-size: 34px;
-    line-height: 0.9;
+    line-height: 0.7;
     font-weight: bold;
-    color: deeppink;
-    text-shadow: 2px 2px 4px #000000;
+    color: dimgrey;
+    font-family: Franklin Gothic Medium;
 }
