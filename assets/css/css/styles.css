@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    cursor: url('ds9-transparent-favicon.png'), auto;
+    cursor: crosshair;
 }
 
 .container {
