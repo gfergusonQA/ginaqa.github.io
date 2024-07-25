@@ -192,10 +192,11 @@ body {
 }
 
 .modern-text {
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-size: 34px;
     line-height: 0.7;
     font-weight: bold;
     color: dimgrey;
-    font-family: Franklin Gothic Medium;
+    font-family: arial;
+    text-transform: uppercase;
 }
