@@ -140,7 +140,7 @@ body {
 }
 
 .contact-me-image {
-    max-width: 450px;
+    max-width: 400px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -150,6 +150,12 @@ body {
 
 .contact-me-image:hover {
     transform: scale(1.2);
+}
+
+.contact-me-icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .contact-me-icons {
