@@ -154,7 +154,7 @@ body {
 
 .contact-me-icons {
     padding: 20px;
-    display: flex;
+    display: inline-block; /* in-line block to keep on the same row  */
     height: auto;
 }
 
