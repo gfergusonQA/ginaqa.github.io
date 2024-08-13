@@ -69,12 +69,13 @@ body {
 }
 
 .header-video-container {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: red;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .header-video {
