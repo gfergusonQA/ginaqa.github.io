@@ -119,6 +119,10 @@ body {
     flex-direction: column;
 }
 
+.header-text-container {
+    text-align: center;
+}
+
 .nav-link:hover {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
