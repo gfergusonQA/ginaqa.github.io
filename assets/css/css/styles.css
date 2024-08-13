@@ -272,6 +272,9 @@ body {
         max-width: 700px;
         padding: 10px;
         align-items: center;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
     }
     .shadow-text {
         font-size: 30pt;
