@@ -168,11 +168,19 @@ body {
     max-width: 200px;
 }
 
+.sidebar-image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
 .contact-me-image {
     width: 400px;
     display: flex;
     justify-content: center;
 }
+
 
 .contact-me-image:hover {
     /* transform: scale(1.2); */
@@ -394,14 +402,20 @@ body {
         font-size: 20pt;
     }
     .sidebar{
-        max-width: 400px;
+        max-width: 450px;
         padding: 10px;
         display: flex;  
-        justify-content: space-around;
+        justify-content: center;
         flex-direction: row;
         align-items: center;
         margin: 10px;
     }
+    /* .sidebar-image {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    } */
     .contact-me-icons-container{
         width: 90%;
         padding: 10px;
