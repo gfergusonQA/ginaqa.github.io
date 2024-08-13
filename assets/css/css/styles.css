@@ -285,7 +285,7 @@ body {
         margin-left: 0;
         margin-bottom: 20px;
         padding: 10px;
-        max-width: 50px;
+        max-width: 600px;
     }
     .header-video-container {
         max-width: 90%;
@@ -381,7 +381,7 @@ body {
         font-size: 12pt;
     }
     .sidebar {
-        max-width: 50px;
+        max-width: 400px;
         padding: 5px;
     
     }
