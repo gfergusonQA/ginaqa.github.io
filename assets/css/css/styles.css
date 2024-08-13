@@ -283,6 +283,7 @@ body {
     }
     .best-viewed-text {
         font-size: 8pt;
+        font-variant: small-caps;
     }
     .contact-me-image {
         padding: 20px;
