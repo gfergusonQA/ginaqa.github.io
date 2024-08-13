@@ -64,7 +64,7 @@ body {
     font-weight: bold;
     transition: transform 0.5s;
     display: block;
-    line-height: 20px;
+    line-height: 10px;
 }
 
 .best-viewed-text {
