@@ -165,15 +165,13 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     max-width: 200px;
 }
 
 .sidebar-image {
     width: 150px; /* trying this because all are different sizes */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: auto;
 }
 
@@ -409,11 +407,10 @@ body {
         max-width: 450px;
         padding: 10px;
         display: flex;  
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: row;
-        align-items: center;
-        margin: 10px;
-        padding: 10px;
+        align-items: flex-start;
+        gap: 10px;
     }
     .sidebar-image {
         width: 50%;
