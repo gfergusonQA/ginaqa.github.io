@@ -198,6 +198,11 @@ body {
     border-radius: 5%;
     padding: 10px;
 }
+.main-content-image {
+    max-width: 400px;
+    display: flex;
+    border: 1pt black solid;
+}
 
 .responsive-image {
     width: 100%;
@@ -264,6 +269,11 @@ body {
     .main-content {
         max-width: 600px;
         padding: 10px;
+    }
+    .main-content-image {
+        max-width: 200px;
+        display: flex;
+        border: 1pt black solid;
     }
     
     .sidebar {
@@ -352,6 +362,11 @@ body {
     .main-content {
         max-width: 300px;
     } 
+    .main-content-image {
+        max-width: 200px;
+        display: flex;
+        border: 1pt black solid;
+    }
     .sidebar {
         max-width: 50px;
         padding: 5px;
