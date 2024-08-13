@@ -165,7 +165,7 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 200px;
 }
 
@@ -351,7 +351,7 @@ body {
     }
     .container, .wrapper {
         padding: 5px;
-        max-width: 100%;
+        width: 100%;
     }
     .nav-bar {
         padding: 5px;
@@ -381,12 +381,12 @@ body {
         text-align: center;
     }
     .shadow-text {
-        font-size: 12pt;
+        font-size: 18pt;
         align-items: center;
         line-height: 10px;
     }
     .best-viewed-text {
-        font-size: 10pt;
+        font-size: 14pt;
         font-variant: small-caps;
         line-height: 8px;
     }
@@ -408,7 +408,7 @@ body {
     .sidebar{
         max-width: 450px;
         padding: 10px;
-        display: inline;  
+        display: flex;  
         justify-content: center;
         flex-direction: row;
         align-items: center;
@@ -417,10 +417,7 @@ body {
     }
     .sidebar-image {
         width: 50%;
-        /* display: inline-block; */
-        gap: 10px;
-        justify-content: space-evenly;
-        height: auto;
+        justify-content: center;
     }
     .contact-me-icons-container{
         width: 90%;
