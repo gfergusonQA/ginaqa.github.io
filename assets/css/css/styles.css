@@ -242,9 +242,10 @@ body {
 @media (max-width: 480px) {
     body {
         font-size: 8pt;
+        padding: 5px;
     }
     .header {
-        font-size: 20pt;
+        font-size: 18pt;
     }
     .container, .wrapper {
         padding: 5px;
@@ -254,9 +255,13 @@ body {
         padding: 5px;
     }
     .nav-link {
-        font-size: 16pt;
+        font-size: 14pt;
     }
     .content-wrapper {
+        padding: 5px;
+    }
+    .header-video-container {
+        width: 100%;
         padding: 5px;
     }
 }
