@@ -276,7 +276,7 @@ body {
         padding: 10px;
     }
     .main-content-image {
-        max-width: 200px;
+        max-width: 750px;
         display: flex;
         border: 1pt black solid;
     }
@@ -373,7 +373,7 @@ body {
         max-width: 550px;
     } 
     .main-content-image {
-        max-width: 200px;
+        max-width: 400px;
         display: flex;
         border: 1pt black solid;
     }
