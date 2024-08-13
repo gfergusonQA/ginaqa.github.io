@@ -164,7 +164,7 @@ body {
     border-radius: 5px;
     margin-left: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .contact-me-image {
@@ -286,7 +286,6 @@ body {
         max-width: 400px;
         padding: 5px;
         display: flex; 
-        flex-direction: column;  
         gap: 10px; 
     }
     .header-video-container {
@@ -384,8 +383,7 @@ body {
     .sidebar{
         max-width: 400px;
         padding: 5px;
-        display: flex; 
-        flex-direction: column;  
+        display: flex;  
         gap: 10px; 
     }
     .contact-me-icons-container{
