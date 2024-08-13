@@ -114,10 +114,9 @@ body {
 }
 
 .header-wrenches {
-    width: 50px;
+    width: 100px;
     height: auto;
     padding: 10px;
-    /* flex-direction: column; */
 }
 
 .header-text-container {
@@ -166,7 +165,7 @@ body {
 }
 
 .contact-me-image {
-    width: 200px;
+    width: 150px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -187,7 +186,7 @@ body {
     padding: 30px;
     display: inline-block; /* in-line block to keep on the same row  */
     height: auto;
-    width: 80px;
+    width: 50px;
 }
 
 .contact-me-icons:hover {
@@ -259,7 +258,6 @@ body {
     .header-wrenches {
         width: 20%;
         padding: 5px;
-        flex-direction: column;
     }    
     .content-wrapper {
         flex-direction: column;
@@ -320,7 +318,6 @@ body {
     .header-wrenches {
         width: 20%;
         padding: 5px;
-        flex-direction: column;
     }    
     .content-wrapper {
         padding: 5px;
