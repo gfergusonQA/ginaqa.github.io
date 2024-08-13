@@ -231,6 +231,7 @@ body {
         flex-direction: column;
         gap: 10px;
         width: 50%;
+        flex-direction: row;
     }
     .nav-link {
         width: 50%;
@@ -274,6 +275,7 @@ body {
     .nav-bar {
         padding: 5px;
         width: 50%;
+        flex-direction: row;
     }
     .nav-link {
         font-size: 14pt;
@@ -292,7 +294,7 @@ body {
         align-items: center;
     }
     .static-image {
-        width: 80%;
+        width: 100%;
     }
     .main-content, .sidebar {
         padding: 5px;
