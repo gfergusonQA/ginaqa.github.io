@@ -3,7 +3,7 @@ body {
     background-color: black;
     background-repeat: repeat;
     background-position: top left;
-    margin: 0;
+    margin: 0 auto;
     height: auto;
     font-family: verdana, arial;
     font-size: 12pt;
@@ -88,6 +88,7 @@ body {
     background-color: rgb(162, 255, 31);
     border-radius: 5px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .header-video {
