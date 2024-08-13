@@ -66,8 +66,8 @@ body {
     font-stretch: extra-expanded;
     color: black;
     line-height: 6px;
-    display: flex;
-    justify-content: inherit;
+    display: block;
+    /* justify-content: inherit; */
 }
 
 .header-video-container {
@@ -157,7 +157,7 @@ body {
 }
 
 .contact-me-image {
-    max-width: 400px;
+    max-width: 700px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -176,7 +176,7 @@ body {
 }
 
 .contact-me-icons {
-    padding: 20px;
+    padding: 30px;
     display: inline-block; /* in-line block to keep on the same row  */
     height: auto;
 }
