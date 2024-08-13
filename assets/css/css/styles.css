@@ -60,6 +60,14 @@ body {
     transition: transform 0.5s;
 }
 
+.best-viewed-text {
+    font-size: 10pt;
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    color: black;
+    line-height: 8px;
+}
+
 .header-video-container {
     width: 90%;
     display: flex;
