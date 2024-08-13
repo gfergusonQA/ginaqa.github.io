@@ -85,7 +85,7 @@ body {
     width: 90%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-start;
     background-color: rgb(162, 255, 31);
     border-radius: 5px;
     padding: 20px;
