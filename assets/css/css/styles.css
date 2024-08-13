@@ -222,6 +222,7 @@ body {
     .nav-bar {
         flex-direction: column;
         gap: 10px;
+        width: 50%;
     }
     .nav-link {
         width: 50%;
@@ -264,6 +265,7 @@ body {
     }
     .nav-bar {
         padding: 5px;
+        width: 50%;
     }
     .nav-link {
         font-size: 14pt;
