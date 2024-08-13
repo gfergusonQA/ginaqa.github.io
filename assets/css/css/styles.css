@@ -224,7 +224,7 @@ body {
         gap: 10px;
     }
     .nav-link {
-        width: 100%;
+        width: 50%;
         text-align: center;
         padding: 15px 10px;
     }
@@ -267,6 +267,8 @@ body {
     }
     .nav-link {
         font-size: 14pt;
+        width: 50%;
+        padding: 15px 10px;
     }
     .content-wrapper {
         padding: 5px;
@@ -280,7 +282,7 @@ body {
         align-items: center;
     }
     .static-image {
-        width: 50px;
+        width: 80%;
     }
     .main-content, .sidebar {
         padding: 5px;
