@@ -46,7 +46,7 @@ body {
     background-color: whitesmoke;
     border-radius: 5px;
     overflow: hidden;
-    margin: 10px;
+    /* margin: 10px; */
 }
 .header-text-container {
     width: 90%;
@@ -63,20 +63,21 @@ body {
 }
 
 .shadow-text {
-    font-size: 20pt;
-    font-family: sans-serif;
+    font-size: 25pt;
+    font-family: serif;
     font-weight: bold;
-    display: block;
+    color: slateblue;
+    /* display: block; */
     line-height: 10px;
 }
 
 .best-viewed-text {
-    font-size: 14pt;
+    font-size: 20pt;
     font-family: sans-serif;
     font-stretch: extra-expanded;
     color: black;
     line-height: 6px;
-    display: block;
+    /* display: block; */
     font-variant: small-caps;
 }
 
@@ -148,7 +149,7 @@ body {
 
 .main-content {
     flex: 3;
-    /* padding: 10px; */
+    padding: 20px;
     background-color: whitesmoke;
     border-radius: 5px;
     display: flex;
@@ -414,12 +415,13 @@ body {
         margin: 10px;
         padding: 10px;
     }
-    /* .sidebar-image {
-        width: 80%;
-        display: flex;
-        justify-content: center;
+    .sidebar-image {
+        width: 50%;
+        /* display: inline-block; */
+        gap: 10px;
+        justify-content: space-evenly;
         height: auto;
-    } */
+    }
     .contact-me-icons-container{
         width: 90%;
         padding: 10px;
