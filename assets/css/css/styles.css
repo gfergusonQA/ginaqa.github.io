@@ -54,10 +54,11 @@ body {
 }
 
 .shadow-text {
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: sans-serif;
     font-weight: bold;
     transition: transform 0.5s;
+    display: block;
 }
 
 .best-viewed-text {
