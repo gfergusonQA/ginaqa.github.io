@@ -163,7 +163,7 @@ body {
 }
 
 .contact-me-image {
-    max-width: 700px;
+    width: 100%;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -280,6 +280,13 @@ body {
         font-size: 30pt;
         text-align: center;
     }
+    .contact-me-image {
+        width: 60%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
 }
 
 /* For screens smaller than 480px */
@@ -326,5 +333,12 @@ body {
     }
     .main-content, .sidebar {
         padding: 5px;
+    }
+    .contact-me-image {
+        width: 40%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        height: auto;
     }
 }
