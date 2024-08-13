@@ -378,12 +378,12 @@ body {
         border: 1pt black solid;
     }
     .modern-text {
-        font-size: 12pt;
+        font-size: 16pt;
     }
     .sidebar {
         max-width: 400px;
         padding: 5px;
-    
+        display: flex;    
     }
     .contact-me-icons-container{
         max-width: 400px;
