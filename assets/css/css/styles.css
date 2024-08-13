@@ -213,6 +213,7 @@ body {
     body {
         font-size: 10pt;
         flex-direction: column;
+        padding: 10px;
     }
     .container, .wrapper {
         padding: 10px;
@@ -235,6 +236,14 @@ body {
         flex-basis: 100%;
         margin-left: 0;
         margin-bottom: 20px;
+        padding: 10px;
+    }
+    .header-video-container {
+        width: 100%;
+        padding: 10px;
+    }
+    .shadow-text {
+        font-size: 30pt;
     }
 }
 
