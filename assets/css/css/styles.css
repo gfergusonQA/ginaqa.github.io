@@ -241,9 +241,11 @@ body {
     .header-video-container {
         width: 100%;
         padding: 10px;
+        align-items: center;
     }
     .shadow-text {
         font-size: 30pt;
+        text-align: center;
     }
 }
 
@@ -275,6 +277,7 @@ body {
     }
     .shadow-text {
         font-size: 25pt;
+        align-items: center;
     }
     .static-image {
         width: 50px;
