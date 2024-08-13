@@ -156,7 +156,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 500px;
 }
 
 .sidebar {
@@ -204,6 +203,7 @@ body {
     justify-content: center;
     border-radius: 5%;
     padding: 10px;
+    width: 90%;
 }
 .main-content-image {
     max-width: 400px;
@@ -312,14 +312,13 @@ body {
         gap: 10px;
     }
     .contact-me-image {
-        padding: 20px;
         display: flex;
         justify-content: center;
         height: auto;
-        max-width: 200px;
+        width: 80%;
     }
     .contact-me-icons {
-        max-width: 50px;
+        width: 70px;
     }
 }
 
@@ -365,21 +364,22 @@ body {
     .best-viewed-text {
         font-size: 10pt;
         font-variant: small-caps;
-        line-height: 10px;
+        line-height: 8px;
     }
     .static-image {
         width: 100%;
+        max-width: 100px;
     }
     .main-content {
-        max-width: 550px;
+        max-width: 450px;
     } 
     .main-content-image {
-        max-width: 400px;
+        max-width: 90%;
         display: flex;
         border: 1pt black solid;
     }
     .modern-text {
-        font-size: 16pt;
+        font-size: 20pt;
     }
     .sidebar{
         max-width: 400px;
@@ -389,18 +389,17 @@ body {
         gap: 10px; 
     }
     .contact-me-icons-container{
-        max-width: 400px;
+        width: 90%;
         padding: 10px;
         gap: 10px;
     }
     .contact-me-image {
-        width: 40%;
-        padding: 20px;
+        width: 80%;
         display: flex;
         justify-content: center;
         height: auto;
     }
     .contact-me-icons {
-        max-width: 50px;
+        max-width: 70px;
     }
 }
