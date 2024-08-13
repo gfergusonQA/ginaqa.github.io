@@ -65,7 +65,9 @@ body {
     font-family: sans-serif;
     font-stretch: extra-expanded;
     color: black;
-    line-height: 8px;
+    line-height: 6px;
+    display: flex;
+    justify-content: inherit;
 }
 
 .header-video-container {
@@ -73,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: rgb(162, 255, 31);
     border-radius: 5px;
     padding: 10px;
 }
