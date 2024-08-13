@@ -108,6 +108,12 @@ body {
     border: 1px solid black;
 }
 
+.header-wrenches {
+    width: 100%;
+    padding: 5px;
+    flex-direction: column;
+}
+
 .nav-link:hover {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -238,6 +244,11 @@ body {
         text-align: center;
         padding: 15px 10px;
     }
+    .header-wrenches {
+        width: 60%;
+        padding: 5px;
+        flex-direction: column;
+    }    
     .content-wrapper {
         flex-direction: column;
         align-items: center;
@@ -282,6 +293,11 @@ body {
         width: 50%;
         padding: 15px 10px;
     }
+    .header-wrenches {
+        width: 60%;
+        padding: 5px;
+        flex-direction: column;
+    }    
     .content-wrapper {
         padding: 5px;
     }
