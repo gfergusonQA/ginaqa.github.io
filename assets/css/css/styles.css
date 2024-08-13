@@ -49,7 +49,7 @@ body {
     margin: 10px;
 }
 .header-text-container {
-    width: 600px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -69,6 +69,7 @@ body {
     transition: transform 0.5s;
     display: block;
     line-height: 10px;
+    color:rgb(75, 255, 3)
 }
 
 .best-viewed-text {
@@ -86,7 +87,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
-    background-color: rgb(162, 255, 31);
+    background-color: whitesmoke;
     border-radius: 5px;
     padding: 20px;
     margin: 0 auto;
