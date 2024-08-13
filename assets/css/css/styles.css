@@ -261,11 +261,17 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    .main-content, .sidebar {
+    .main-content {
+        max-width: 600px;
+        padding: 10px;
+    }
+    
+    .sidebar {
         flex-basis: 100%;
         margin-left: 0;
         margin-bottom: 20px;
         padding: 10px;
+        max-width: 50px;
     }
     .header-video-container {
         max-width: 80%;
@@ -343,8 +349,13 @@ body {
     .static-image {
         width: 100%;
     }
-    .main-content, .sidebar {
+    .main-content {
+        max-width: 300px;
+    } 
+    .sidebar {
+        max-width: 50px;
         padding: 5px;
+    
     }
     .contact-me-image {
         width: 40%;
