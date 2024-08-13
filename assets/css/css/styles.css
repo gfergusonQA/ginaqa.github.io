@@ -164,7 +164,7 @@ body {
     border-radius: 5px;
     margin-left: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 200px;
 }
 
