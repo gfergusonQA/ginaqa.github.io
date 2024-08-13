@@ -49,6 +49,7 @@ body {
     margin: 10px;
 }
 .header-text-container {
+    width: 600px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -168,8 +169,7 @@ body {
 }
 
 .contact-me-image {
-    width: 150px;
-    padding: 20px;
+    width: 450px;
     display: flex;
     justify-content: center;
 }
@@ -182,14 +182,16 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    max-width: 450;
+    gap: 10px;
 }
 
 .contact-me-icons {
     padding: 30px;
     display: inline-block; /* in-line block to keep on the same row  */
     height: auto;
-    width: 50px;
+    width: 70px;
 }
 
 .contact-me-icons:hover {
@@ -281,15 +283,14 @@ body {
         border: 1pt black solid;
     }
     .sidebar {
-        flex-basis: 100%;
-        margin-left: 0;
-        margin-bottom: 20px;
-        padding: 10px;
-        max-width: 600px;
+        max-width: 400px;
+        padding: 5px;
+        display: flex; 
+        flex-direction: column;  
+        gap: 10px; 
     }
     .header-video-container {
         max-width: 90%;
-        padding: 10px;
         align-items: center;
         display: flex;
         justify-content: space-between;
@@ -298,12 +299,12 @@ body {
     .shadow-text {
         font-size: 12pt;
         text-align: center;
-        line-height: 10px;
+        line-height: 8px;
     }
     .best-viewed-text {
         font-size: 8pt;
         font-variant: small-caps;
-        line-height: 10px;
+        line-height: 8px;
     }
     .contact-me-icons-container{
         max-width: 500px;
@@ -380,10 +381,12 @@ body {
     .modern-text {
         font-size: 16pt;
     }
-    .sidebar {
+    .sidebar{
         max-width: 400px;
         padding: 5px;
-        display: flex;    
+        display: flex; 
+        flex-direction: column;  
+        gap: 10px; 
     }
     .contact-me-icons-container{
         max-width: 400px;
