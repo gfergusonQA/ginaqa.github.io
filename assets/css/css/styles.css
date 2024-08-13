@@ -72,14 +72,14 @@ body {
 }
 
 .header-video-container {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(162, 255, 31);
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .header-video {
@@ -114,7 +114,7 @@ body {
 }
 
 .header-wrenches {
-    width: 100%;
+    width: 100px;
     padding: 5px;
     flex-direction: column;
 }
