@@ -213,6 +213,12 @@ body {
     border: 1pt black solid;
     border-radius: 5%;
 }
+.about-me-image {
+    width: 75%;
+    display: flex;
+    border-radius: 5%;
+    border: 1pt solid black;
+}
 
 .responsive-image {
     width: 100%;
