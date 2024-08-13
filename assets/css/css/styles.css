@@ -46,7 +46,7 @@ body {
     background-color: whitesmoke;
     border-radius: 5px;
     overflow: hidden;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .header-text-container {
     display: flex;
