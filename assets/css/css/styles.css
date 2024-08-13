@@ -45,6 +45,7 @@ body {
     background-color: whitesmoke;
     border-radius: 5px;
     overflow: hidden;
+    padding: 10px;
 }
 .header-text-container {
     display: flex;
@@ -74,13 +75,12 @@ body {
     color: black;
     line-height: 6px;
     display: block;
-    /* justify-content: inherit; */
+    font-variant: small-caps;
 }
 
 .header-video-container {
     width: 90%;
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     background-color: rgb(162, 255, 31);
@@ -160,8 +160,6 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    /* min-width: 300px;
-    min-height: 500px; */
 }
 
 .contact-me-image {
@@ -278,12 +276,14 @@ body {
         border-radius: 5px;
     }
     .shadow-text {
-        font-size: 15pt;
+        font-size: 12pt;
         text-align: center;
+        line-height: 10px;
     }
     .best-viewed-text {
         font-size: 8pt;
         font-variant: small-caps;
+        line-height: 10px;
     }
     .contact-me-image {
         padding: 20px;
@@ -331,12 +331,14 @@ body {
         padding: 5px;
     }
     .shadow-text {
-        font-size: 15pt;
+        font-size: 12pt;
         align-items: center;
+        line-height: 10px;
     }
     .best-viewed-text {
         font-size: 10pt;
         font-variant: small-caps;
+        line-height: 10px;
     }
     .static-image {
         width: 100%;
