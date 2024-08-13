@@ -163,12 +163,10 @@ body {
 }
 
 .contact-me-image {
-    width: 100%;
+    width: 80%;
     padding: 20px;
     display: flex;
     justify-content: center;
-    height: auto;
-    margin-bottom: 20px;
 }
 
 .contact-me-image:hover {
@@ -178,13 +176,15 @@ body {
 .contact-me-icons-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    padding: 10px;
 }
 
 .contact-me-icons {
     padding: 30px;
     display: inline-block; /* in-line block to keep on the same row  */
     height: auto;
+    width: 80%;
+    max-width: 150px;
 }
 
 .contact-me-icons:hover {
@@ -287,6 +287,9 @@ body {
         justify-content: center;
         height: auto;
     }
+    .contact-me-icons {
+        max-width: 50px;
+    }
 }
 
 /* For screens smaller than 480px */
@@ -340,5 +343,8 @@ body {
         display: flex;
         justify-content: center;
         height: auto;
+    }
+    .contact-me-icons {
+        max-width: 50px;
     }
 }
