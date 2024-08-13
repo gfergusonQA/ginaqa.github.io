@@ -169,14 +169,14 @@ body {
 }
 
 .contact-me-image {
-    width: 450px;
+    width: 400px;
     display: flex;
     justify-content: center;
 }
 
 .contact-me-image:hover {
     /* transform: scale(1.2); */
-    transform:matrix3d(5);
+    transform: rotate3d(1, 1, 1, 45deg);
 }
 
 .contact-me-icons-container {
@@ -184,7 +184,7 @@ body {
     justify-content: center;
     padding: 10px;
     flex-direction: row;
-    max-width: 450;
+    max-width: 400;
     gap: 10px;
 }
 
@@ -211,6 +211,7 @@ body {
     max-width: 400px;
     display: flex;
     border: 1pt black solid;
+    border-radius: 5%;
 }
 
 .responsive-image {
