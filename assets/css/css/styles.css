@@ -53,7 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 700px;
+    /* max-width: 700px; */
 }
 .header-text {
     font-family: serif;
@@ -66,7 +66,6 @@ body {
     font-size: 20pt;
     font-family: sans-serif;
     font-weight: bold;
-    transition: transform 0.5s;
     display: block;
     line-height: 10px;
 }
@@ -149,7 +148,7 @@ body {
 
 .main-content {
     flex: 3;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: whitesmoke;
     border-radius: 5px;
     display: flex;
@@ -165,12 +164,12 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     max-width: 200px;
 }
 
 .sidebar-image {
-    width: 80%;
+    width: 150px; /* trying this because all are different sizes */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,7 +185,7 @@ body {
 
 .contact-me-image:hover {
     /* transform: scale(1.2); */
-    transform: rotate3d(1, 1, 1, 45deg);
+    transform: rotate3d(1, 2, 3, 15deg);
 }
 
 .contact-me-icons-container {
@@ -224,10 +223,10 @@ body {
     border-radius: 5%;
 }
 .about-me-image {
-    width: 75%;
+    width: 55%;
     display: flex;
     border-radius: 5%;
-    border: 1pt solid black;
+    border: 1pt;
 }
 
 .responsive-image {
@@ -317,7 +316,6 @@ body {
     }
     .shadow-text {
         font-size: 12pt;
-        text-align: center;
         line-height: 8px;
     }
     .best-viewed-text {
@@ -376,7 +374,10 @@ body {
         padding: 5px;
     }
     .header-text-container {
-        max-height: 50px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     .shadow-text {
         font-size: 12pt;
