@@ -46,7 +46,7 @@ body {
     background-color: whitesmoke;
     border-radius: 5px;
     overflow: hidden;
-    /* padding: 10px; */
+    margin: 10px;
 }
 .header-text-container {
     display: flex;
@@ -120,6 +120,8 @@ body {
     transition: background 0.3s, transform 0.3s;
     border-radius: 5%;
     border: 1px solid black;
+    display: flex;
+    flex-direction: inherit;
 }
 
 .header-wrenches {
