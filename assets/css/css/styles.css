@@ -163,7 +163,7 @@ body {
 }
 
 .contact-me-image {
-    width: 80%;
+    width: 200px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -183,8 +183,7 @@ body {
     padding: 30px;
     display: inline-block; /* in-line block to keep on the same row  */
     height: auto;
-    width: 80%;
-    max-width: 150px;
+    width: 80px;
 }
 
 .contact-me-icons:hover {
@@ -281,7 +280,6 @@ body {
         text-align: center;
     }
     .contact-me-image {
-        width: 60%;
         padding: 20px;
         display: flex;
         justify-content: center;
