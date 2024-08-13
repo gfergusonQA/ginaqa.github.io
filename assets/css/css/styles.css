@@ -208,7 +208,7 @@ body {
     width: 90%;
 }
 .main-content-image {
-    max-width: 400px;
+    width: 75%;
     display: flex;
     border: 1pt black solid;
     border-radius: 5%;
@@ -285,10 +285,11 @@ body {
     .main-content {
         max-width: 600px;
         padding: 10px;
+        flex-shrink: inherit;
     }
     .main-content-image {
-        max-width: 750px;
-        display: flex;
+        width: 75%;
+        flex-shrink: inherit;
         border: 1pt black solid;
     }
     .sidebar {
