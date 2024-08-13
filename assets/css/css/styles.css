@@ -69,7 +69,6 @@ body {
     transition: transform 0.5s;
     display: block;
     line-height: 10px;
-    color:rgb(75, 255, 3)
 }
 
 .best-viewed-text {
@@ -176,7 +175,8 @@ body {
 }
 
 .contact-me-image:hover {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
+    transform:matrix3d(5);
 }
 
 .contact-me-icons-container {
@@ -357,6 +357,9 @@ body {
         width: 90%;
         padding: 5px;
     }
+    .header-text-container {
+        max-height: 50px;
+    }
     .shadow-text {
         font-size: 12pt;
         align-items: center;
@@ -384,9 +387,12 @@ body {
     }
     .sidebar{
         max-width: 400px;
-        padding: 5px;
+        padding: 10px;
         display: flex;  
-        gap: 10px; 
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
     }
     .contact-me-icons-container{
         width: 90%;
