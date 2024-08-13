@@ -270,7 +270,7 @@ body {
         padding: 10px;
     }
     .header-video-container {
-        max-width: 700px;
+        max-width: 80%;
         padding: 10px;
         align-items: center;
         display: flex;
@@ -323,7 +323,7 @@ body {
         padding: 5px;
     }
     .header-video-container {
-        max-width: 300px;
+        width: 70%;
         padding: 5px;
     }
     .shadow-text {
