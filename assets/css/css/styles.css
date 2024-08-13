@@ -264,4 +264,13 @@ body {
         width: 100%;
         padding: 5px;
     }
+    .shadow-text {
+        font-size: 25pt;
+    }
+    .static-image {
+        width: 50px;
+    }
+    .main-content, .sidebar {
+        padding: 5px;
+    }
 }
