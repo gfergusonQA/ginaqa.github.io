@@ -125,7 +125,7 @@ body {
     border: 1px solid black;
     display: flex;
     flex-direction: inherit;
-    margin: 15px;
+    /* margin: 15px; */
 }
 
 .header-wrenches {
