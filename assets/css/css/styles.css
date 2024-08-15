@@ -399,18 +399,18 @@ body {
         max-width: 100px;
     }
     .main-content {
-        width: 70%;
-        max-width: 400px;
-        padding: 20px;
+        width: 100%;
+        max-width: 500px;
+        padding: 10px;
         flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 300px;
+        min-height: 400px;
 
     } 
     .main-content-image {
-        max-width: 90%;
+        max-width: 100%;
         display: flex;
         border: 1pt black solid;
     }
@@ -418,10 +418,10 @@ body {
         font-size: 20pt;
     }
     .sidebar{
-        max-width: 300px;
+        width: 70%;
         padding: 10px;
         display: flex;  
-        /* justify-content: space-between; */
+        justify-content: space-evenly;
         flex-direction: row;
         align-items: flex-start;
         gap: 10px;
