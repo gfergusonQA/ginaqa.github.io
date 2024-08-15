@@ -128,10 +128,8 @@ body {
 }
 
 .header-wrenches {
-    width: 70px;
+    width: 90px;
     height: auto;
-    padding: 10px;
-    /* margin: 20px; */
 }
 
 .nav-link:hover {
@@ -177,6 +175,10 @@ body {
 .sidebar-image {
     width: 150px; /* trying this because all are different sizes */
     height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    justify-content: space-evenly;
 }
 
 .contact-me-image {
