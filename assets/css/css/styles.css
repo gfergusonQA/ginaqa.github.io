@@ -35,6 +35,7 @@ body {
     align-items: center;
     padding: 20px;
     border-radius: 20%;
+    margin: 20px;
 }
 
 .header {
@@ -175,10 +176,9 @@ body {
 .sidebar-image {
     width: 150px; /* trying this because all are different sizes */
     height: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
+    margin: 20px;
     justify-content: space-evenly;
+
 }
 
 .contact-me-image {
@@ -356,6 +356,7 @@ body {
         font-size: 18pt;
         padding: 10px;
         width: 100%;
+        margin: 10px;
     }
     .container, .wrapper {
         padding: 5px;
@@ -373,7 +374,6 @@ body {
     }
     .header-wrenches {
         width: 15%;
-        padding: 5px;
     }    
     .content-wrapper {
         /* padding: 10px; */
@@ -433,8 +433,9 @@ body {
         margin: 10px;
     }
     .sidebar-image {
-        width: 30%;
+        width: 20%;
         justify-content: center;
+        margin: 10px;
     }
     .contact-me-icons-container{
         width: 90%;
