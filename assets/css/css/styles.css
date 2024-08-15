@@ -63,7 +63,7 @@ body {
 }
 
 .shadow-text {
-    font-size: 25pt;
+    font-size: 35pt;
     font-family: serif;
     font-weight: bold;
     color: slateblue;
@@ -75,7 +75,7 @@ body {
     font-size: 20pt;
     font-family: sans-serif;
     font-stretch: extra-expanded;
-    color: black;
+    color: red;
     line-height: 6px;
     /* display: block; */
     font-variant: small-caps;
@@ -126,9 +126,10 @@ body {
 }
 
 .header-wrenches {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding: 10px;
+    /* margin: 20px; */
 }
 
 .nav-link:hover {
