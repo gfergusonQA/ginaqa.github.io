@@ -166,7 +166,7 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     max-width: 200px;
 }
@@ -303,9 +303,11 @@ body {
     }
     .sidebar {
         max-width: 400px;
-        padding: 5px;
+        width: 40%;
+        padding: 10px;
         display: flex; 
         gap: 10px; 
+        margin: 10px;
     }
     .header-video-container {
         max-width: 90%;
@@ -405,16 +407,17 @@ body {
         font-size: 20pt;
     }
     .sidebar{
-        max-width: 450px;
+        max-width: 300px;
         padding: 10px;
         display: flex;  
-        justify-content: space-between;
+        /* justify-content: space-between; */
         flex-direction: row;
         align-items: flex-start;
         gap: 10px;
+        margin: 10px;
     }
     .sidebar-image {
-        width: 50%;
+        width: 30%;
         justify-content: center;
     }
     .contact-me-icons-container{
