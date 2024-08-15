@@ -115,6 +115,7 @@ body {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     text-decoration: none;
     font-size: 18pt;
+    line-height: 12px;
     font-weight: bold;
     padding: 10px 15px;
     background-color: whitesmoke;
@@ -123,6 +124,7 @@ body {
     border: 1px solid black;
     display: flex;
     flex-direction: inherit;
+    margin: 15px;
 }
 
 .header-wrenches {
@@ -157,6 +159,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 500px;
 }
 
 .sidebar {
@@ -369,7 +372,7 @@ body {
         padding: 5px;
     }    
     .content-wrapper {
-        padding: 5px;
+        padding: 10px;
     }
     .header-video-container {
         width: 90%;
@@ -396,7 +399,15 @@ body {
         max-width: 100px;
     }
     .main-content {
-        max-width: 450px;
+        width: 70%;
+        max-width: 400px;
+        padding: 20px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 300px;
+
     } 
     .main-content-image {
         max-width: 90%;
