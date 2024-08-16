@@ -436,10 +436,11 @@ body {
         width: 100%;
         max-width: 500px;
         display: flex;  
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: row;
         align-items: center;
         margin: 10px;
+        gap: 15px;
     }
     .sidebar-image {
         width: 15%;
