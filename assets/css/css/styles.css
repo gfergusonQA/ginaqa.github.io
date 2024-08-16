@@ -442,7 +442,7 @@ body {
         margin: 10px;
     }
     .sidebar-image {
-        width: auto;
+        width: 15%;
         display: flex;
         justify-content: center;
         align-items: center;
