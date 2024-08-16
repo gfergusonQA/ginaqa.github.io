@@ -163,7 +163,7 @@ body {
     min-height: 500px;
 }
 
-.sidebar {
+.sidebar-content {
     flex: 1;
     background-color: whitesmoke;
     border-radius: 5px;
@@ -313,7 +313,7 @@ body {
         flex-shrink: inherit;
         border: 1pt black solid;
     }
-    .sidebar {
+    .sidebar-content {
         max-width: 400px;
         width: 40%;
         padding: 10px;
@@ -363,7 +363,7 @@ body {
         font-size: 18pt;
         padding: 10px;
         width: 100%;
-        /* margin: 10px; */
+        /* margin: 10px; // breaks the layout  */
     }
     .container, .wrapper {
         padding: 5px;
@@ -379,9 +379,9 @@ body {
         width: 50%;
         padding: 15px 10px;
     }
-    .header-wrenches {
+    /* .header-wrenches {
         width: 15%;
-    }    
+    }     */
     .content-wrapper {
         /* padding: 10px; */
         margin: 10px;
