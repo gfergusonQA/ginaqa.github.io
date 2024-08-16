@@ -356,7 +356,7 @@ body {
         font-size: 18pt;
         padding: 10px;
         width: 100%;
-        margin: 10px;
+        /* margin: 10px; */
     }
     .container, .wrapper {
         padding: 5px;
