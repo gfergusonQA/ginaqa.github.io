@@ -120,8 +120,7 @@ body {
     font-size: 18pt;
     line-height: 12px;
     font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px;
     background-color: whitesmoke;
     transition: background 0.3s, transform 0.3s;
     border-radius: 5%;
