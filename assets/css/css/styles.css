@@ -428,7 +428,6 @@ body {
     }
     .sidebar{
         width: 100%;
-        padding: 10px;
         display: flex;  
         justify-content: space-evenly;
         flex-direction: row;
@@ -436,7 +435,7 @@ body {
         margin: 10px;
     }
     .sidebar-image {
-        width: 10%;
+        width: 20%;
         justify-content: center;
         /* margin: 20px; */
     }
