@@ -106,7 +106,6 @@ body {
     border-radius: 5px;
     background-color: whitesmoke;
     padding: 10px;
-    margin-top: 10px;
     width: 100%;
     max-width: 700px;
 }
@@ -262,6 +261,7 @@ body {
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
+    margin: 10px;
 }
 
 /* Media Queries aka mobile device view */
@@ -281,7 +281,7 @@ body {
         flex-direction: column;
         gap: 10px;
         width: 50%;
-        flex-direction: row;
+        /* flex-direction: row; */
     }
     .nav-link {
         width: 50%;
@@ -420,7 +420,7 @@ body {
         border: 1pt black solid;
     }
     .modern-text {
-        font-size: 20pt;
+        font-size: 16pt;
     }
     .sidebar{
         width: 100%;
