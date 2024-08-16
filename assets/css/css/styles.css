@@ -444,8 +444,8 @@ body {
     }
     .sidebar-image {
         width: 15%;
-        display: flex;
-        justify-content: center;
+        /* display: flex;        // breaks the layout
+        justify-content: center; // breaks the layout*/
         align-items: center;
         /* flex-direction: row; */
         gap: 10px; /* space between images */
