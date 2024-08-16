@@ -417,7 +417,7 @@ body {
     } 
     .main-content-image {
         /* max-width: 100%; */
-        width: 75%;
+        width: 55%;
         height: auto;
         display: flex;
         border: 1pt black solid;
@@ -432,7 +432,7 @@ body {
         display: flex;  
         justify-content: space-evenly;
         flex-direction: row;
-        align-items: flex-start;
+        align-items:center;
         margin: 10px;
     }
     .sidebar-image {
