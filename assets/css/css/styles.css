@@ -169,7 +169,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     max-width: 200px;
 }
 
@@ -198,7 +198,7 @@ body {
     justify-content: center;
     padding: 10px;
     flex-direction: row;
-    max-width: 400;
+    max-width: 400px;
     gap: 10px;
 }
 
@@ -415,7 +415,7 @@ body {
 
     } 
     .main-content-image {
-        max-width: 100%;
+        /* max-width: 100%; */
         display: flex;
         border: 1pt black solid;
     }
