@@ -179,7 +179,9 @@ body {
     width: 150px; /* trying this because all are different sizes */
     height: auto;
     margin: 20px;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
