@@ -446,7 +446,7 @@ body {
         width: 15%;
         /* display: flex;        // breaks the layout
         justify-content: center; // breaks the layout*/
-        align-items: center;
+        align-items:flex-start;
         /* flex-direction: row; */
         gap: 10px; /* space between images */
     }
