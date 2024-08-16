@@ -417,6 +417,8 @@ body {
     } 
     .main-content-image {
         /* max-width: 100%; */
+        width: 75%;
+        height: auto;
         display: flex;
         border: 1pt black solid;
     }
