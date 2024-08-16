@@ -432,7 +432,7 @@ body {
         font-size: 10pt;
         display: inline;
     }
-    .sidebar{
+    .sidebar-content{
         width: 100%;
         max-width: 500px;
         display: flex;  
