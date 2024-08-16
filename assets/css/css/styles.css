@@ -270,6 +270,18 @@ body {
     margin: 10px;
     display: inline;
 }
+.footer {
+    width: 100%;
+    max-width: 1000px; /* Match this with the width of your container */
+    margin: 0 auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
 
 /* Media Queries aka mobile device view */
 
@@ -350,6 +362,10 @@ body {
     }
     .contact-me-icons {
         width: 70px;
+    }
+    .footer {
+        max-width: 90%;
+        padding: 5px;
     }
 }
 
@@ -463,5 +479,9 @@ body {
     }
     .contact-me-icons {
         max-width: 70px;
+    }
+    .footer {
+        max-width: 100%;
+        padding: 5px;
     }
 }
