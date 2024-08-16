@@ -432,11 +432,11 @@ body {
         display: flex;  
         justify-content: space-evenly;
         flex-direction: row;
-        align-items:center;
+        align-items: center;
         margin: 10px;
     }
     .sidebar-image {
-        width: 5%;
+        width: 10%;
         justify-content: center;
         /* margin: 20px; */
     }
