@@ -445,9 +445,9 @@ body {
     .sidebar-image {
         width: 15%;
         /* display: flex;
-        justify-content: center;
+        justify-content: center; */
         align-items: center;
-        flex-direction: row; */
+        /* flex-direction: row; */
         gap: 10px; /* space between images */
     }
     .contact-me-icons-container{
