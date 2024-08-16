@@ -441,11 +441,12 @@ body {
         margin: 10px;
     }
     .sidebar-image {
-        width: 20%;
+        width: auto;
         display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         flex-direction: row;
+        gap: 10px; /* space between images */
     }
     .contact-me-icons-container{
         width: 90%;
