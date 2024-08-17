@@ -277,8 +277,7 @@ body {
 }
 .footer {
     width: 100%;
-    margin: 20px;
-    padding: 10px;
+    margin-top: 20px;
     background-color: whitesmoke;
     color: black;
     text-align: center;
@@ -372,8 +371,8 @@ body {
         width: 70px;
     }
     .footer {
-        max-width: 90%;
-        padding: 5px;
+        max-width: 500px;
+        /* padding: 5px; */
     }
 }
 
