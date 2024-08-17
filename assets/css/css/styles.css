@@ -278,7 +278,7 @@ body {
 }
 .footer {
     width: 100%;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     background-color: whitesmoke;
     color: black;
     text-align: center;
@@ -374,7 +374,7 @@ body {
     }
     .footer {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 }
 
@@ -491,7 +491,7 @@ body {
         max-width: 70px;
     }
     .footer {
-        margin-top: 10px;
+        margin-top: 0px;
         width: 100%;
     }
 }
