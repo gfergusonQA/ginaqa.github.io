@@ -271,6 +271,8 @@ body {
     text-align: center;
     margin: 10px;
     display: inline;
+    background-color: blue;
+    
 }
 .footer {
     width: 100%;
