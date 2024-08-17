@@ -341,6 +341,7 @@ body {
         align-self: center;
         gap: 10px; 
         margin-top: 10px;
+        margin-left: 0px;
     }
     .header-video-container {
         max-width: 90%;
@@ -467,6 +468,7 @@ body {
         align-self: center;
         margin-top: 10px;
         gap: 15px;
+        margin-left: 0px;
     }
     .sidebar-image {
         width: 15%;
