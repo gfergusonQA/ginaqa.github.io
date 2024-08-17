@@ -16,7 +16,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     min-width: 300px;
     height: auto;
@@ -151,7 +151,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     margin-top: 20px;
 }
 
