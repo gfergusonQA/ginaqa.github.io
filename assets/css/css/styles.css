@@ -337,7 +337,7 @@ body {
         padding: 10px;
         display: flex; 
         gap: 10px; 
-        margin: 10px;
+        /* margin: 10px; */
     }
     .header-video-container {
         max-width: 90%;
@@ -460,7 +460,7 @@ body {
         justify-content: center;
         flex-direction: row;
         align-items: center;
-        margin: 10px;
+        /* margin: 10px; */
         gap: 15px;
     }
     .sidebar-image {
