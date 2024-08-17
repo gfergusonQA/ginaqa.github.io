@@ -175,7 +175,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-self: center;
+    /* align-self: center; */
     align-items: flex-start;
     max-width: 200px;
 }
