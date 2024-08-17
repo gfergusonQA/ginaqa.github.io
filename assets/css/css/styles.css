@@ -130,7 +130,7 @@ body {
     border-radius: 5%;
     border: 1px solid black;
     display: flex;
-    flex-direction: inherit;
+    flex-direction: row;
     /* margin: 15px; */
 }
 /* 
@@ -494,7 +494,7 @@ body {
         max-width: 70px;
     }
     .footer {
-        margin-top: 100px;
+        margin-top: 500px;
         width: 100%;
         box-sizing: border-box;
     }
