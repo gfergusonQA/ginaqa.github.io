@@ -376,6 +376,7 @@ body {
     .footer {
         width: 100%;
         margin-top: 0px;
+        box-sizing: border-box;
     }
 }
 
@@ -495,5 +496,6 @@ body {
     .footer {
         margin-top: 0px;
         width: 100%;
+        box-sizing: border-box;
     }
 }
