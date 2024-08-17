@@ -297,7 +297,7 @@ body {
     body {
         font-size: 10pt;
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
     }
     .container, .wrapper {
         padding: 10px;
@@ -383,7 +383,7 @@ body {
 @media (max-width: 480px) {
     body {
         font-size: 8pt;
-        padding: 5px;
+        padding: 20px;
     }
     .header {
         font-size: 18pt;
