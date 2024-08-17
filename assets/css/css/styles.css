@@ -282,7 +282,7 @@ body {
     color: black;
     text-align: center;
     border-radius: 5px;
-    font-family: sans-serif;
+    font-family: verdana, arial;
     max-width: 900px;
     display: flex;
     flex-direction: column;
