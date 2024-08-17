@@ -47,9 +47,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: whitesmoke;
     border-radius: 5px;
-    overflow:scroll;
+    /* overflow:scroll; */
     /* margin: 10px; margin messes up the layout */
 }
 /* .header-text-container {
@@ -272,7 +272,6 @@ body {
     text-align: center;
     margin: 10px;
     display: inline;
-    background-color: blue;
     
 }
 .footer {
