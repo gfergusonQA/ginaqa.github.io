@@ -389,7 +389,7 @@ body {
         /* margin: 10px; // breaks the layout  */
     }
     .container, .wrapper {
-        padding: 5px;
+        /* padding: 5px; */
         width: 100%;
     }
     .nav-bar {
