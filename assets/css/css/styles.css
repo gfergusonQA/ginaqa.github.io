@@ -546,10 +546,12 @@ iframe {
     }
     .contact-me-image {
         width: 80%;
-        display: flex;
+        display: block;
+        margin: 0 auto;
+        /* display: flex;
         justify-content: center;
         align-self: center;
-        align-items: center;
+        align-items: center; */
         height: auto;
     }
     .footer {
