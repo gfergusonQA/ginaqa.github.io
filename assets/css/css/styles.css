@@ -545,10 +545,8 @@ iframe {
         display: flex;
         justify-content: center;
         align-self: center;
+        align-items: center;
         height: auto;
-    }
-    .contact-me-icons {
-        max-width: 70px;
     }
     .footer {
         margin-top: 500px;
@@ -557,7 +555,7 @@ iframe {
     }
      .contact-me-icons {
         padding: 2px; /* Adjust padding for smaller screens */
-        max-width: 45px; /* Smaller maximum width for icons on small screens */
+        max-width: 50px; /* Smaller maximum width for icons on small screens */
     }
     .resume-container {
         width: 100%;
@@ -569,6 +567,12 @@ iframe {
         width: 100%;
         height: auto;
         border: none;
+    }
+    .image-container {
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
     }
     
 }
