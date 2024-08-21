@@ -297,6 +297,10 @@ body {
     height: 90vh;
     border: 2px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 iframe {
     width: 100%;
@@ -562,11 +566,13 @@ iframe {
         height: 90vh;
         /* border: 2px solid black; */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
     }
     iframe {
         width: 100%;
-        height: auto;
+        height: 100%;
         border: none;
+        display: block;
     }
     .image-container {
         position: relative;
