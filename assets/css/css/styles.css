@@ -556,8 +556,8 @@ iframe {
         box-sizing: border-box;
     }
      .contact-me-icons {
-        padding: 20px; /* Adjust padding for smaller screens */
-        max-width: 40px; /* Smaller maximum width for icons on small screens */
+        padding: 2px; /* Adjust padding for smaller screens */
+        max-width: 45px; /* Smaller maximum width for icons on small screens */
     }
     .resume-container {
         width: 100%;
