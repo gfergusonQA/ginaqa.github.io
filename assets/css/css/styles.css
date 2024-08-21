@@ -208,15 +208,17 @@ body {
     justify-content: center;
     padding: 10px;
     flex-direction: row;
-    max-width: 400px;
+    /* max-width: 400px; */
+    max-width: 100%;  /* adding to see if the container shrinks*/
     gap: 10px;
 }
 
 .contact-me-icons {
     padding: 30px;
+    flex: 1; /* allows icons to grow/shrink as needed*/
     display: inline-block; /* in-line block to keep on the same row  */
     height: auto;
-    width: 70px;
+    max-width: 70px;
 }
 
 .contact-me-icons:hover {
