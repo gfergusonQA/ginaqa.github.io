@@ -544,6 +544,7 @@ iframe {
         width: 80%;
         display: flex;
         justify-content: center;
+        align-self: center;
         height: auto;
     }
     .contact-me-icons {
@@ -556,7 +557,7 @@ iframe {
     }
      .contact-me-icons {
         padding: 20px; /* Adjust padding for smaller screens */
-        max-width: 50px; /* Smaller maximum width for icons on small screens */
+        max-width: 40px; /* Smaller maximum width for icons on small screens */
     }
     .resume-container {
         width: 100%;
@@ -565,7 +566,7 @@ iframe {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     iframe {
-        width: 80%;
+        width: 100%;
         height: auto;
         border: none;
     }
