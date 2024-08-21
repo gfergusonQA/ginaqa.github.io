@@ -312,6 +312,8 @@ iframe {
     display: block;
     max-width: 100%;
     height: auto;
+    position: relative;
+    z-index: 0; /* Ensure the image is below the overlay */
 }
 
 .download-overlay {
@@ -329,6 +331,7 @@ iframe {
     text-decoration: none;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease;
+    z-index: 1; /* Ensure the overlay is above other content */
 }
 
 .image-container:hover .download-overlay {
