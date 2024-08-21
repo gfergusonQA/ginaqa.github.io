@@ -208,15 +208,16 @@ body {
     justify-content: center;
     padding: 10px;
     flex-direction: row;
+    flex-wrap: wrap;
     /* max-width: 400px; */
     max-width: 100%;  /* adding to see if the container shrinks*/
     gap: 10px;
 }
 
 .contact-me-icons {
-    padding: 30px;
+    padding: 10px;
     flex: 1; /* allows icons to grow/shrink as needed*/
-    display: inline-block; /* in-line block to keep on the same row  */
+    /* display: inline-block; in-line block to keep on the same row  */
     height: auto;
     max-width: 70px;
 }
@@ -292,7 +293,7 @@ body {
     align-items: center;
 }
 .resume-container {
-    width: 80%;
+    width: 100%;
     height: 90vh;
     border: 2px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
