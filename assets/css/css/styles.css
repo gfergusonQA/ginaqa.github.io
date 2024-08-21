@@ -575,7 +575,7 @@ iframe {
         width: 100%;
         height: 100%;
         border: none;
-        display: block;
+        /* display: block; */
     }
     .image-container {
         position: relative;
