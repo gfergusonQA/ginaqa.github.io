@@ -106,7 +106,7 @@ body {
 .nav-bar {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     gap: 30px;
     border-radius: 5px;
     background-color: whitesmoke;
@@ -130,7 +130,7 @@ body {
     border-radius: 5%;
     border: 1px solid black;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* margin: 15px; */
 }
 /* 
@@ -424,6 +424,7 @@ body {
 .close:hover {
     background: #f1f1f1;
 }
+/* END PORTFOLIO GRID BOXES */
 
 
 
