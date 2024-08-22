@@ -443,7 +443,9 @@ body {
         width: 100%;
     }
     .nav-bar {
-        flex-direction: column;
+        /* flex-direction: column; */
+        display: flex;
+        justify-content: center;
         gap: 10px;
         width: 50%;
         /* flex-direction: row; */
@@ -452,6 +454,8 @@ body {
         width: 50%;
         text-align: center;
         padding: 15px 10px;
+        display: inline-flex;
+        align-items: center;
     }
     .header-wrenches {
         width: 20%;
@@ -538,12 +542,17 @@ body {
     .nav-bar {
         padding: 15px;
         width: 50%;
-        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: row; */
     }
     .nav-link {
         font-size: 14pt;
         width: 50%;
         padding: 15px 10px;
+        display: inline-flex;
+        align-items: center;
     }
     /* .header-wrenches {
         width: 15%;
