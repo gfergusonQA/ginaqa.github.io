@@ -621,6 +621,7 @@ body {
     }
     .sidebar-image {
         width: 15%;
+        display: inline-flex;
         /* display: flex;        // breaks the layout
         justify-content: center; // breaks the layout*/
         align-items:flex-start;
