@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Grid with Hover Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item" data-slide="1">
+            <img src="thumbnail1.jpg" alt="Project 1">
+        </div>
+        <div class="grid-item" data-slide="2">
+            <img src="thumbnail2.jpg" alt="Project 2">
+        </div>
+        <div class="grid-item" data-slide="3">
+            <img src="thumbnail3.jpg" alt="Project 3">
+        </div>
+        <!-- Add more grid items as needed -->
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <button class="close">&times;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
