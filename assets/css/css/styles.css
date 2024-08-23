@@ -221,7 +221,7 @@ body {
     padding: 10px;
     flex-direction: row;
     flex-wrap: wrap;
-    /* max-width: 400px; */
+    width: 100%;
     max-width: 100%;  /* adding to see if the container shrinks*/
     gap: 10px;
 }
