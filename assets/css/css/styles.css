@@ -191,13 +191,14 @@ body {
     /* display: flex;
     justify-content: center;
     align-items: center; */
-
 }
 
  .contact-me-image {
     /* width: 400px;
     display: flex; */
     justify-content: center;
+    align-self: center;
+    align-items: center;
     /* added from dupe */
     display: block;
     max-width: 100%;
@@ -207,10 +208,9 @@ body {
 }
 
 
-.contact-me-image:hover {
-    /* transform: scale(1.2); */
+/* .contact-me-image:hover {
     transform: rotate3d(1, 2, 3, 15deg);
-}
+} */
 
 .contact-me-icons-container {
     display: flex;
@@ -326,8 +326,8 @@ iframe {
     max-width: 100%;
     height: auto;
     position: relative;
-    z-index: 0; /* Ensure the image is below the overlay */
-} */
+    z-index: 0;
+}*/
 
 .download-overlay {
     position: absolute;
