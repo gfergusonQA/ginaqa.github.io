@@ -48,7 +48,6 @@ body {
     align-items: center;
     background-color: whitesmoke;
     border-radius: 5px;
-    /* overflow:scroll; */
     /* margin: 10px; margin messes up the layout */
 }
 /* .header-text-container {
@@ -133,11 +132,6 @@ body {
     /* flex-direction: row; */
     /* margin: 15px; */
 }
-/* 
-.header-wrenches {
-    width: 90px;
-    height: auto;
-} */
 
 .nav-link:hover {
     background: rgb(0, 0, 0);
@@ -177,21 +171,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* align-self: center; */
+    /* align-self: center; THIS BREAKS THE LAYOUT*/
     align-items: flex-start;
     max-width: 200px;
 }
 
 .sidebar-image {
-    width: 150px; /* trying this because all are different sizes */
+    /* width: 150px;  trying this because all are different sizes */
+    max-width: 100%;
+    flex-shrink: 1; /* NEW */
+    box-sizing: border-box; /* NEW */
     height: auto;
     margin: 20px;
     justify-content: space-evenly;
     display: flex;
     align-items: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    /* justify-content: center; BREAKS THE PAGE */
 }
 
  .contact-me-image {
