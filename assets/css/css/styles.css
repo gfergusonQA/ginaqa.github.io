@@ -194,11 +194,11 @@ body {
 
 }
 
-.contact-me-image {
+/* .contact-me-image {
     width: 400px;
     display: flex;
     justify-content: center;
-}
+} */
 
 
 .contact-me-image:hover {
@@ -686,7 +686,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: #ffffff;
         text-align: center;
         text-decoration: none;
         opacity: 0; /* Initially hidden */
