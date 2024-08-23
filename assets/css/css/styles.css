@@ -648,9 +648,9 @@ body {
         margin: 0 auto;
         /* display: flex;
         justify-content: center;
-        align-self: center;
         align-items: center; */
         height: auto;
+        align-self: center;
     }
     .footer {
         margin-top: 500px;
