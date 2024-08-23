@@ -172,7 +172,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     /* align-self: center; THIS BREAKS THE LAYOUT*/
-    align-items: flex-start;
+    align-items: center;
     max-width: 200px;
 }
 
