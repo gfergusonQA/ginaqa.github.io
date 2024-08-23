@@ -194,11 +194,17 @@ body {
 
 }
 
-/* .contact-me-image {
-    width: 400px;
-    display: flex;
+ .contact-me-image {
+    /* width: 400px;
+    display: flex; */
     justify-content: center;
-} */
+    /* added from dupe */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0; /* Ensure the image is below the overlay */
+}
 
 
 .contact-me-image:hover {
@@ -315,13 +321,13 @@ iframe {
     display: inline-block;
 }
 
-.contact-me-image {
+/* .contact-me-image {
     display: block;
     max-width: 100%;
     height: auto;
     position: relative;
     z-index: 0; /* Ensure the image is below the overlay */
-}
+} */
 
 .download-overlay {
     position: absolute;
