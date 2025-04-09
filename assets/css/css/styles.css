@@ -190,8 +190,6 @@ body {
 }
 
  .contact-me-image {
-    /* width: 400px;
-    display: flex; */
     justify-content: center;
     align-self: center;
     align-items: center;
@@ -245,14 +243,16 @@ body {
     margin: 0 auto;
     height: auto;
     display: block;
-    justify-content: center !important;
+    justify-content: center;
     border: 1pt black solid;
     border-radius: 5%;
 }
 .about-me-image {
-    width: 65%;
+    max-width: 75%;
     display: block;
-    justify-content: center !important;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
     border-radius: 5%;
     border: 1pt;
 }
