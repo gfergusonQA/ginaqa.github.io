@@ -157,10 +157,10 @@ body {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start; /*aligns to the top*/
+    align-items: flex-start; /*aligns items to the left*/
     min-height: 500px;
-    text-align: center;
+    text-align: left;
 }
 
 .sidebar-content {
@@ -292,7 +292,7 @@ body {
     color: black;
     text-align: center;
     border-radius: 5px;
-    font-family: verdana, arial;
+    font-family:  arial;
     /* max-width: 900px; didn't work!!! */
     display: flex;
     flex-direction: column;
@@ -300,7 +300,6 @@ body {
 }
 .resume-container {
     width: 100%;
-
     border: 2px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
