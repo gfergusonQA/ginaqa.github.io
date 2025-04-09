@@ -305,12 +305,11 @@ body {
     align-items: center;
 }
 .resume-container {
-    width: 100%;
     border: 2px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: block;
     margin: 0 auto;
-    height: auto;
+    max-height: 100%;
     max-width: 100%;
     justify-content: center;
     align-items: center;
