@@ -156,7 +156,7 @@ body {
     padding: 15px;
     background-color: whitesmoke;
     border-radius: 5px;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: flex-start; /*aligns to the top*/
     align-items: flex-start; /*aligns items to the left*/
@@ -256,6 +256,7 @@ body {
     justify-content: center;
     border-radius: 5%;
     border: 1pt;
+    padding: 10px;
 }
 
 .responsive-image {
