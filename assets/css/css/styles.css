@@ -313,7 +313,7 @@ body {
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /*overflow: hidden; */
 }
 iframe {
     width: 100%;
