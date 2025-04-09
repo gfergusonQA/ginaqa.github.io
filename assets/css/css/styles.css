@@ -152,7 +152,7 @@ body {
 
 .main-content {
     flex: 3;
-    padding: 5px;
+    padding: 15px;
     background-color: whitesmoke;
     border-radius: 5px;
     display: flex;
@@ -241,7 +241,7 @@ body {
     width: 90%;
 }
 .main-content-image {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     height: auto;
     display: block;
