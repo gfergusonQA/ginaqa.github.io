@@ -241,15 +241,17 @@ body {
     width: 90%;
 }
 .main-content-image {
-    width: 75%;
-    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
     justify-content: center !important;
     border: 1pt black solid;
     border-radius: 5%;
 }
 .about-me-image {
     width: 65%;
-    display: flex;
+    display: block;
     justify-content: center !important;
     border-radius: 5%;
     border: 1pt;
