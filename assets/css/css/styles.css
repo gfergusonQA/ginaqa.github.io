@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     cursor: crosshair;
-    font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica !important;
 }
 
 .container {
@@ -118,7 +118,7 @@ body {
 
 .nav-link {
     color: rgb(0, 0, 0);
-    font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica !important;
     text-decoration: none;
     font-size: 18pt;
     line-height: 12px;
@@ -162,7 +162,7 @@ body {
     align-items: flex-start; /*aligns items to the left*/
     min-height: 500px;
     text-align: left;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica !important;
 }
 
 .sidebar-content {
