@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     cursor: crosshair;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
 }
 
 .container {
@@ -118,7 +118,7 @@ body {
 
 .nav-link {
     color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
     text-decoration: none;
     font-size: 18pt;
     line-height: 12px;
@@ -661,7 +661,7 @@ body {
         margin-top: 500px;
         width: 100%;
         box-sizing: border-box;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+        font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
     }
      .contact-me-icons {
         padding: 2px; /* Adjust padding for smaller screens */
