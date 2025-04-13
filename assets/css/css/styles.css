@@ -48,7 +48,7 @@ body {
     align-items: center;
     background-color: whitesmoke;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0px;
     /* margin: 10px; margin messes up the layout */
 }
 /* .header-text-container {
