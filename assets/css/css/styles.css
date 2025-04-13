@@ -4,13 +4,13 @@ body {
     background-repeat: repeat;
     background-position: top left;
     margin: 0 auto;
-    font-family: verdana, arial;
     font-size: 12pt;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     cursor: crosshair;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 .container {
