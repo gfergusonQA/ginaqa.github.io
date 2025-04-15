@@ -10,10 +10,20 @@ sidebar_content: '
 <div class="main-content">
   <div class="gf-portfolio-wrapper fade-in">
     <h1 class="gf-grid-title">My Projects</h1>
+
+    <!-- 🎯 Filter Buttons -->
+    <div class="gf-filter-buttons">
+      <button class="gf-filter-btn active" data-filter="all">All</button>
+      <button class="gf-filter-btn" data-filter="react">React</button>
+      <button class="gf-filter-btn" data-filter="ml">Machine Learning</button>
+      <button class="gf-filter-btn" data-filter="qa">QA</button>
+    </div>
+
+    <!-- 🎨 Portfolio Grid -->
     <div class="gf-project-grid">
-      
-      <!-- Project Item -->
-      <div class="gf-project-item">
+
+      <!-- Project Item 1: React -->
+      <div class="gf-project-item" data-category="react">
         <a href="https://github.com/gfergusonQA/project1" target="_blank">
           <img src="assets/images/ds9-edit.png" alt="Project 1">
           <div class="gf-hover-info">
@@ -23,8 +33,8 @@ sidebar_content: '
         </a>
       </div>
 
-      <!-- Another Project Item -->
-      <div class="gf-project-item">
+      <!-- Project Item 2: Machine Learning -->
+      <div class="gf-project-item" data-category="ml">
         <a href="https://github.com/gfergusonQA/project2" target="_blank">
           <img src="assets/images/ds9-edit.png" alt="Project 2">
           <div class="gf-hover-info">
@@ -34,16 +44,42 @@ sidebar_content: '
         </a>
       </div>
 
-      <!-- Add more gf-project-item blocks as needed -->
+      <!-- Add more gf-project-item blocks as needed with data-category="qa", etc -->
     </div>
 
     <!-- OPTIONAL PAGINATION spot -->
-    <!-- <div class="gf-pagination">
+    <!--
+    <div class="gf-pagination">
       <a href="#" class="gf-page-btn">Previous</a>
       <a href="#" class="gf-page-btn">1</a>
       <a href="#" class="gf-page-btn active">2</a>
       <a href="#" class="gf-page-btn">3</a>
       <a href="#" class="gf-page-btn">Next</a>
-    </div> -->
+    </div>
+    -->
   </div>
 </div>
+
+<!-- 🧠 JavaScript for Filter Buttons -->
+<script>
+  const filterButtons = document.querySelectorAll('.gf-filter-btn');
+  const projects = document.querySelectorAll('.gf-project-item');
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      projects.forEach(project => {
+        const category = project.getAttribute('data-category');
+        if (filter === 'all' || category === filter) {
+          project.style.display = 'block';
+        } else {
+          project.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
