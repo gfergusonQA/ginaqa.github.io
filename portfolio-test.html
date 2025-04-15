@@ -1,73 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Grid with Hover Slideshow</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gina's Project Grid</title>
+  <link rel="stylesheet" href="gf-portfolio-grid.css" />
 </head>
-<body>
-    <div class="grid-container">
-        <div class="grid-item" data-slide="1">
-            <img src="assets/images/test-phone.png" alt="Project 1">
+<body class="portfolio-body">
+  <div class="gf-portfolio-wrapper">
+    <h1 class="gf-grid-title">My Projects</h1>
+    <div class="gf-project-grid">
+      <div class="gf-project-item">
+        <img src="images/project1.png" alt="Project 1">
+        <div class="gf-hover-info">
+          <h2>Project One</h2>
+          <p>React App for tracking health data.</p>
         </div>
-        <div class="grid-item" data-slide="2">
-            <img src="assets/images/test-phone.png" alt="Project 2">
+      </div>
+      <div class="gf-project-item">
+        <img src="images/project2.png" alt="Project 2">
+        <div class="gf-hover-info">
+          <h2>Project Two</h2>
+          <p>Machine Learning visualization tool.</p>
         </div>
-        <div class="grid-item" data-slide="3">
-            <img src="assets/images/test-phone.png" alt="Project 3">
-        </div>
-        <!-- Add more grid items as needed -->
+      </div>
+      <!-- Add more projects as needed -->
     </div>
-
-    <div class="lightbox" id="lightbox">
-        <button class="close">&times;</button>
-        <div class="lightbox-content">
-            <img id="lightbox-img" src="assets/images/ds9-edit.png" alt="test test test 12345">
-        </div>
-    </div>
-
-    <style>
-        .font-sample {
-          margin-bottom: 1rem;
-          font-size: 1.5rem;
-        }
-        .apple-system {
-          font-family: -apple-system;
-        }
-        .blinkmac {
-          font-family: BlinkMacSystemFont;
-        }
-        .segoe {
-          font-family: 'Segoe UI';
-        }
-        .roboto {
-          font-family: Roboto;
-        }
-        .helvetica {
-          font-family: Helvetica;
-        }
-        .arial {
-          font-family: Arial;
-        }
-        .lucida {
-          font-family: 'Lucida Sans';
-        }
-        .verdana {
-          font-family: Verdana;
-        }
-      </style>
-      
-      <div class="font-sample apple-system">-apple-system → “The future is now.”</div>
-      <div class="font-sample blinkmac">BlinkMacSystemFont → “The future is now.”</div>
-      <div class="font-sample segoe">Segoe UI → “The future is now.”</div>
-      <div class="font-sample roboto">Roboto → “The future is now.”</div>
-      <div class="font-sample helvetica">Helvetica → “The future is now.”</div>
-      <div class="font-sample arial">Arial → “The future is now.”</div>
-      <div class="font-sample lucida">Lucida Sans → “The future is now.”</div>
-      <div class="font-sample verdana">Verdana → “The future is now.”</div>
-      
-
-    <script src="scripts.js"></script>
+  </div>
 </body>
 </html>
