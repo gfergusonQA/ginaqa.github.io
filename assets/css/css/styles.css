@@ -526,7 +526,8 @@ iframe {
   /* ---- start of filter buttons for portfolio ----- */
   .gf-filter-buttons {
     text-align: center;
-    margin-bottom: 30px;
+    align-items: center;
+    margin-bottom: 30px !important;
   }
   
   .gf-filter-btn {
