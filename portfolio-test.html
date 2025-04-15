@@ -1,31 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gina's Project Grid</title>
-  <link rel="stylesheet" href="gf-portfolio-grid.css" />
-</head>
-<body class="portfolio-body">
-  <div class="gf-portfolio-wrapper">
+---
+layout: default
+title: Portfolio
+sidebar_content: '
+    <img src="assets/images/c2c-transparent.png" class="sidebar-image">
+    <img src="assets/images/c2c-transparent.png" class="sidebar-image">'
+---
+
+<!-- Main page content starts here -->
+<div class="main-content">
+  <div class="gf-portfolio-wrapper fade-in">
     <h1 class="gf-grid-title">My Projects</h1>
     <div class="gf-project-grid">
+      
+      <!-- Project Item -->
       <div class="gf-project-item">
-        <img src="assets/images/ds9-edit.png" alt="Project 1">
-        <div class="gf-hover-info">
-          <h2>Project One</h2>
-          <p>React App for tracking health data.</p>
-        </div>
+        <a href="https://github.com/gfergusonQA/project1" target="_blank">
+          <img src="assets/images/ds9-edit.png" alt="Project 1">
+          <div class="gf-hover-info">
+            <h2>Project One</h2>
+            <p>React App for tracking health data.</p>
+          </div>
+        </a>
       </div>
+
+      <!-- Another Project Item -->
       <div class="gf-project-item">
-        <img src="assets/images/ds9-edit.png" alt="Project 2">
-        <div class="gf-hover-info">
-          <h2>Project Two</h2>
-          <p>Machine Learning visualization tool.</p>
-        </div>
+        <a href="https://github.com/gfergusonQA/project2" target="_blank">
+          <img src="assets/images/ds9-edit.png" alt="Project 2">
+          <div class="gf-hover-info">
+            <h2>Project Two</h2>
+            <p>Machine Learning visualization tool.</p>
+          </div>
+        </a>
       </div>
-      <!-- Add more projects as needed -->
+
+      <!-- Add more gf-project-item blocks as needed -->
     </div>
+
+    <!-- OPTIONAL PAGINATION spot -->
+    <!-- <div class="gf-pagination">
+      <a href="#" class="gf-page-btn">Previous</a>
+      <a href="#" class="gf-page-btn">1</a>
+      <a href="#" class="gf-page-btn active">2</a>
+      <a href="#" class="gf-page-btn">3</a>
+      <a href="#" class="gf-page-btn">Next</a>
+    </div> -->
   </div>
-</body>
-</html>
+</div>

@@ -366,75 +366,75 @@ iframe {
 
 /* -----------------------------------------BELOW ARE FOR PORTFOLIO GRID BOXES ------------------------------  */
 /* Base Styling */
+/* GLOBAL STYLES */
 .portfolio-body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
     background-color: #121212;
     color: #f2f2f2;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
   }
   
+  /* WRAPPER */
   .gf-portfolio-wrapper {
     max-width: 1100px;
     margin: 0 auto;
     padding: 40px 20px;
   }
   
+  /* TITLE */
   .gf-grid-title {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;
+    color: #f2f2f2;
   }
   
-  /* Grid Layout */
+  /* GRID LAYOUT */
   .gf-project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
   }
   
-  /* Project Card */
+  /* PROJECT CARD */
   .gf-project-item {
     position: relative;
     overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .gf-project-item:hover {
-    transform: scale(1.03);
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    transition: transform 0.4s ease-in-out;
+    background-color: #1e1e1e;
   }
   
   .gf-project-item img {
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
   }
   
   .gf-project-item:hover img {
     transform: scale(1.1);
-    filter: blur(2px) brightness(70%);
+    filter: brightness(70%) blur(2px);
   }
   
-  /* Hover Overlay */
+  /* OVERLAY */
   .gf-hover-info {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
-    color: white;
+    width: 100%;
     background: rgba(0, 0, 0, 0.6);
-    text-align: center;
-    padding: 20px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    padding: 20px;
+    text-align: center;
   }
   
   .gf-project-item:hover .gf-hover-info {
@@ -443,25 +443,52 @@ iframe {
   
   .gf-hover-info h2 {
     font-size: 1.4rem;
-    margin: 0 0 10px;
+    margin-bottom: 10px;
   }
   
   .gf-hover-info p {
     font-size: 1rem;
-    margin: 0;
     line-height: 1.4;
   }
   
-  /* 📱 Responsive Media Queries */
+  /* FADE IN ANIMATION */
+  .fade-in {
+    animation: fadeIn 0.8s ease forwards;
+    opacity: 0;
+  }
   
-  /* Tablet */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* PAGINATION STUB (optional) */
+  .gf-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+  }
+  
+  .gf-page-btn {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .gf-page-btn:hover,
+  .gf-page-btn.active {
+    background-color: #444;
+  }
+  
+  /* TABLET */
   @media (max-width: 1024px) {
     .gf-grid-title {
       font-size: 2rem;
-    }
-  
-    .gf-project-grid {
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
   
     .gf-hover-info h2 {
@@ -473,7 +500,7 @@ iframe {
     }
   }
   
-  /* Mobile */
+  /* MOBILE */
   @media (max-width: 600px) {
     .gf-grid-title {
       font-size: 1.8rem;
@@ -483,10 +510,6 @@ iframe {
       grid-template-columns: 1fr;
     }
   
-    .gf-hover-info {
-      padding: 10px;
-    }
-  
     .gf-hover-info h2 {
       font-size: 1rem;
     }
@@ -494,13 +517,17 @@ iframe {
     .gf-hover-info p {
       font-size: 0.9rem;
     }
+  
+    .gf-project-item:hover img {
+      transform: scale(1.05);
+    }
   }
   
-/*------------------------------  END PORTFOLIO GRID BOXES ------------------------------------*/
+/*---------------------  END PORTFOLIO GRID BOXES -------------------------------*/
 
 
 
-/* -------- Media Queries aka mobile device view ----------*/
+/* --------------- Media Queries aka mobile device view for all pages ------- ----------*/
 
 /* For screens smaller than 768px */
 @media (max-width: 768px) {
