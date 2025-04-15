@@ -527,7 +527,7 @@ iframe {
   .gf-filter-buttons {
     text-align: center;
     align-items: center;
-    margin-bottom: 30px !important;
+    margin-bottom: 20px !important;
   }
   
   .gf-filter-btn {
@@ -539,12 +539,13 @@ iframe {
     border-radius: 6px;
     cursor: pointer;
     font-size: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
     transition: background-color 0.3s ease;
   }
   
   .gf-filter-btn:hover,
   .gf-filter-btn.active {
-    background-color: pink;
+    background-color: pink !important;
   }  
   /* ---- end of filter buttons for portfolio ------- */
   
