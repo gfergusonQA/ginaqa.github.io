@@ -1,6 +1,6 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164/build/three.module.js';
-import { Water }  from 'https://unpkg.com/three@0.164.1/examples/jsm/objects/Water2.js?module';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.164/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/controls/OrbitControls.js';
+import { Water } from 'https://cdn.skypack.dev/three@0.164.1/examples/jsm/objects/Water2.js';
 
 const renderer = new THREE.WebGLRenderer({
   canvas: document.getElementById('pond'),
@@ -20,7 +20,7 @@ controls.enableDamping = true;
 
 const geometry = new THREE.PlaneGeometry(8, 4, 256, 256);
 const loader   = new THREE.TextureLoader();
-const normalURL = new URL('../textures/waternormals.jpg', import.meta.url).href;
+const normalURL = new URL('../assets/images/waternormals.jpg', import.meta.url).href;
 
 const water = new Water(geometry, {
   color: '#44c4ff',
