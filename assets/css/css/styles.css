@@ -854,7 +854,7 @@ iframe {
   body::before{
     content:"";
     position:fixed;inset:0;z-index:-1;
-    background: url("../../images/3px-tile.png");
+    background: url("assets/images/3px-tile.png");
     mix-blend-mode:overlay;
     opacity:.35;
     pointer-events:none;
