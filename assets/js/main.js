@@ -1,6 +1,6 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.164.1';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.164.1/examples/jsm/controls/OrbitControls.js';
-import { Water } from '/assets/js/Water2.js'; // fixed path
+import { Water } from '../assets/js/Water2.js'; // fixed path
 
 
 
