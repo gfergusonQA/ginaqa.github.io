@@ -3,53 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ginaferguson.net </title>
+    <title>ginaferguson.net</title>
+
+    <!-- keep your stylesheet link exactly the same -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/css/styles.css">
     <link rel="icon" href="assets/images/ds9-favicon-white-bkgd.png" type="image/x-icon">
-
 </head>
+
 <body>
-    <!-- Water‑colour background (sits behind everything else) -->
-<div id="water-wrapper">
-    <canvas id="pond"></canvas>
-  </div>
-    <!-- end water color background-->  
-    <div class="wrapper">
+
+    <!-- ① NEW – fixed‑position canvas that lives behind the whole site -->
+    <div id="water-wrapper">
+        <canvas id="pond"></canvas>
+    </div>
+
+    <div class="wrapper"><!-- wrapper unchanged -->
         <header class="header">
-            <div class="modern-text" >
-                Gina Ferguson: Software Engineer
-            </div>
-            <!-- <div class="header-video-container">
-                <img src="{{ site.baseurl }}/assets/images/construction-transparent-final.png" class="header-wrenches">
-                <div class="header-text-container">
-                    <p class="shadow-text">Under Construction</p>
-                    <p class="best-viewed-text">Best viewed on desktop</p>
-                </div>
-                <img src="{{ site.baseurl }}/assets/images/construction-transparent-final.png" class="header-wrenches">
-            </div> -->
+            <div class="modern-text">Gina Ferguson: Software Engineer</div>
+
+            <!-- (all your header comments & nav stay exactly the same) -->
             <nav class="nav-bar">
-                <a href="{{ "/" | relative_url }}" class="nav-link">Home</a>
-                <a href="{{ "/about" | relative_url }}" class="nav-link">About</a>
-                <a href="{{ "/portfolio" | relative_url }}" class="nav-link">Portfolio</a>
-                <a href="{{ "/contact" | relative_url }}" class="nav-link">Contact</a>
+                <a href="{{ "/"         | relative_url }}" class="nav-link">Home</a>
+                <a href="{{ "/about"    | relative_url }}" class="nav-link">About</a>
+                <a href="{{ "/portfolio"| relative_url }}" class="nav-link">Portfolio</a>
+                <a href="{{ "/contact"  | relative_url }}" class="nav-link">Contact</a>
             </nav>
         </header>
-        <main class="content-wrapper">
-            <div class="main-content">
-                {{ content }}
-            </div>
-            <aside class="sidebar-content">
-                {{ page.sidebar_content }}
-            </aside> 
-        </main>
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; 2025 Gina Ferguson. All rights reserved.</p>
-        </footer>
-    </div> <!-- end wrapper -->
-    <!-- wrapper for watercolor background-->
-    <script type="module" src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    <!-- end wrapper-->
 
+        <main class="content-wrapper">
+            <div   class="main-content">   {{ content }}         </div>
+            <aside class="sidebar-content">{{ page.sidebar_content }}</aside>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Gina Ferguson. All rights reserved.</p>
+        </footer>
+    </div><!-- /.wrapper -->
+
+    <!-- ② NEW – water‑shader code (module) -->
+    <script type="module" src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>

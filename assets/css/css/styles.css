@@ -823,35 +823,41 @@ iframe {
 /* =========================================================
    Water‑colour canvas (global)
    ========================================================= */
+/* … … (all your original styles up to, and including, the last mobile media‑query) … … */
 
-/* Positioning for the <div id="water-wrapper"><canvas id="pond"></canvas></div> */
-#water-wrapper {
-    position: fixed;     /* sticks to viewport */
-    inset: 0;            /* full‑screen */
-    z-index: -1;         /* BEHIND everything in .wrapper */
-    pointer-events: none;/* never blocks clicks */
+/* =========================================================
+   Water‑colour canvas (global)
+   ========================================================= */
+
+/* Positioning for <div id="water-wrapper"><canvas id="pond"></canvas></div> */
+#water-wrapper{
+    position:fixed;
+    inset:0;
+    z-index:0;               /* CHANGED from -1 → 0  */
+    pointer-events:none;
   }
   
-  #pond {
-    display: block;
-    width: 100%;
-    height: 100%;
+  #pond{display:block;width:100%;height:100%;}
+  
+  /* content lives above the canvas */
+  .wrapper{                  /* NEW */
+    position:relative;
+    z-index:1;
   }
   
-  /* Accessibility: respect OS “Reduce motion” setting */
-  @media (prefers-reduced-motion: reduce) {
-    #water-wrapper { display: none; }  /* fall back to plain background */
+  /* Respect OS “Reduce motion” */
+  @media (prefers-reduced-motion:reduce){
+    #water-wrapper{display:none;}
   }
-  /* Water‑colour paper grain overlay */
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: -1;                      /* same layer as water */
-    background: url("../images/paper.png") center / cover;
-    mix-blend-mode: overlay;
-    opacity: .35;
-    pointer-events: none;
+  
+  /* Optional paper‑grain overlay */
+  body::before{
+    content:"";
+    position:fixed;inset:0;z-index:-1;
+    background:url("../images/paper.png") center/cover;
+    mix-blend-mode:overlay;
+    opacity:.35;
+    pointer-events:none;
   }
   
   
