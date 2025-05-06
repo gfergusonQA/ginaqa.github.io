@@ -1,6 +1,7 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.164.1/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'https://cdn.skypack.dev/three@0.164.1';
+import { OrbitControls } from 'https://cdn.skypack.dev/three@0.164.1/examples/jsm/controls/OrbitControls.js';
 import { Water } from 'https://cdn.skypack.dev/three@0.164.1/examples/jsm/objects/Water2.js';
+
 
 const renderer = new THREE.WebGLRenderer({
   canvas: document.getElementById('pond'),
