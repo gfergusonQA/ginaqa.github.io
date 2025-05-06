@@ -26,7 +26,7 @@ const geometry = new THREE.PlaneGeometry(8,4,256,256);
 const loader   = new THREE.TextureLoader();
 
 /* correct relative URL to texture */
-const normalURL = new URL('../textures/waternormals.jpg', import.meta.url).href;
+const normalURL = new URL('../assets/images/waternormals.jpg', import.meta.url).href;
 
 const water = new Water(geometry,{
   color:'#44c4ff',
