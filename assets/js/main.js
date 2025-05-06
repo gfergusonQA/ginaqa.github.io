@@ -1,6 +1,7 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.164.1';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.164.1/examples/jsm/controls/OrbitControls.js';
-import { Water } from 'https://cdn.skypack.dev/three@0.164.1/examples/jsm/objects/Water2.js';
+import { Water } from '/assets/js/Water2.js'; // fixed path
+
 
 
 const renderer = new THREE.WebGLRenderer({
